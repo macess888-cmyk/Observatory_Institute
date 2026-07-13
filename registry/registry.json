@@ -1,0 +1,14 @@
+{
+  "institution": "Observatory Institute",
+  "version": "0.1",
+  "status": "FOUNDATION",
+  "objects": [
+    {
+      "id": "OI-000001",
+      "title": "Founding Prospectus",
+      "classification": "Foundational Institutional Document",
+      "status": "Draft",
+      "version": "0.1"
+    }
+  ]
+}
