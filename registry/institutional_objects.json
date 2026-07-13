@@ -20,6 +20,13 @@
       "classification": "Institutional Decision Record",
       "status": "Accepted",
       "version": "1.0"
+    },
+    {
+      "id": "OI-MAP-000001",
+      "title": "Observatory Institute Institutional Map",
+      "classification": "Institutional Architecture Map",
+      "status": "Draft",
+      "version": "0.1"
     }
   ]
 }
