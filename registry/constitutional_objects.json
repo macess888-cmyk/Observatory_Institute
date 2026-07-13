@@ -1,0 +1,16 @@
+{
+  "constitutional_documents": [
+    {
+      "id": "OI-CON-000001",
+      "title": "Constitution",
+      "status": "Draft",
+      "version": "0.1"
+    },
+    {
+      "id": "OI-PRO-000001",
+      "title": "Founding Prospectus",
+      "status": "Draft",
+      "version": "0.1"
+    }
+  ]
+}
