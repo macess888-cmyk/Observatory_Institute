@@ -1,10 +1,10 @@
-# OI-000001
+OI-PRO-000001
 
 # Observatory Institute Founding Prospectus
 
 **Registry ID**
 
-OI-000001
+OI-PRO-000001
 
 ---
 
@@ -116,4 +116,4 @@ Leave the Institute brighter than you found it.
 
 ---
 
-End of OI-000001
+End of OI-PRO-000001
