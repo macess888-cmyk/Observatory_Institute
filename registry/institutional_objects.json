@@ -13,6 +13,13 @@
       "classification": "Foundational Ontology",
       "status": "Research Draft",
       "version": "0.1"
+    },
+    {
+      "id": "OI-IDR-000001",
+      "title": "Typed Institutional Identifiers",
+      "classification": "Institutional Decision Record",
+      "status": "Accepted",
+      "version": "1.0"
     }
   ]
 }
