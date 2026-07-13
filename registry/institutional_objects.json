@@ -1,0 +1,18 @@
+{
+  "institutional_objects": [
+    {
+      "id": "OI-RES-000001",
+      "title": "Observatory Research Program",
+      "classification": "Foundational Research Document",
+      "status": "Draft",
+      "version": "0.1"
+    },
+    {
+      "id": "OI-ONT-000001",
+      "title": "Foundational Ontology",
+      "classification": "Foundational Ontology",
+      "status": "Research Draft",
+      "version": "0.1"
+    }
+  ]
+}
