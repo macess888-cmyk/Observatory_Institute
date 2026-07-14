@@ -14,3 +14,4 @@ class LineageStatus(str, Enum):
     UNVERIFIED = "UNVERIFIED"
     UNKNOWN = "UNKNOWN"
     CONFLICTED = "CONFLICTED"
+    RECONCILED = "RECONCILED"

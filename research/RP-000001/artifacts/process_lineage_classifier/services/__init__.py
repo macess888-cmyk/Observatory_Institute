@@ -95,6 +95,36 @@ from .split_brain_classifier import (
     SplitBrainClassificationError,
     SplitBrainClassifier,
 )
+from .witness_evidence_validator import (
+    ConflictingWitnessError,
+    DuplicateWitnessError,
+    InsufficientWitnessesError,
+    InvalidWitnessEvidenceError,
+    WitnessEvidenceValidationError,
+    WitnessEvidenceValidator,
+)
+from .concurrent_event_window_validator import (
+    ConcurrentEventConflictError,
+    ConcurrentEventWindowError,
+    ConcurrentEventWindowValidator,
+    InvalidConcurrentWindowError,
+)
+from .authority_convergence_classifier import (
+    AuthorityConvergenceClassificationError,
+    AuthorityConvergenceClassifier,
+)
+from .split_brain_recovery_classifier import (
+    SplitBrainRecoveryClassificationError,
+    SplitBrainRecoveryClassifier,
+)
+from .lineage_reconciliation_classifier import (
+    LineageReconciliationClassificationError,
+    LineageReconciliationClassifier,
+)
+from .rollback_recovery_classifier import (
+    RollbackRecoveryClassificationError,
+    RollbackRecoveryClassifier,
+)
 
 __all__ = [
     "AddressChangeClassificationError",
@@ -150,4 +180,22 @@ __all__ = [
     "LeaseValidationError",
     "SplitBrainClassificationError",
     "SplitBrainClassifier",
+    "ConflictingWitnessError",
+    "DuplicateWitnessError",
+    "InsufficientWitnessesError",
+    "InvalidWitnessEvidenceError",
+    "WitnessEvidenceValidationError",
+    "WitnessEvidenceValidator",
+    "ConcurrentEventConflictError",
+    "ConcurrentEventWindowError",
+    "ConcurrentEventWindowValidator",
+    "InvalidConcurrentWindowError",
+    "AuthorityConvergenceClassificationError",
+    "AuthorityConvergenceClassifier",
+    "SplitBrainRecoveryClassificationError",
+    "SplitBrainRecoveryClassifier",
+    "LineageReconciliationClassificationError",
+    "LineageReconciliationClassifier",
+    "RollbackRecoveryClassificationError",
+    "RollbackRecoveryClassifier",
 ]

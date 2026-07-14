@@ -3,6 +3,7 @@ from .continuity_classification import ContinuityClassification
 from .process_event import ProcessEvent
 from .process_state import ProcessState
 from .transition_evidence import TransitionEvidence
+from .witness_evidence import WitnessEvidence
 
 __all__ = [
     "BindingAssessment",
@@ -10,4 +11,5 @@ __all__ = [
     "ProcessEvent",
     "ProcessState",
     "TransitionEvidence",
+    "WitnessEvidence",
 ]
