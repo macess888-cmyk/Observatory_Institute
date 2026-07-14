@@ -114,6 +114,23 @@
 "version": "0.1",
 "question_id": "RQ-000001",
 "model_id": "RM-000001"
+},
+{
+"id": "ROB-000008",
+"title": "External Anchors and Identity Regress",
+"status": "Observed",
+"assessment": "PLAUSIBLE",
+"local_identity_resolution": "SUPPORTED",
+"foundational_identity_resolution": "NOT ESTABLISHED",
+"anchor_dependency": "SUPPORTED",
+"anchor_regress": "PLAUSIBLE",
+"operational_termination": "CONDITIONALLY SUPPORTED",
+"anchor_independence": "RELEVANT",
+"binding_integrity": "REQUIRED",
+"irreducibility_status": "UNKNOWN",
+"version": "0.1",
+"question_id": "RQ-000001",
+"model_id": "RM-000001"
 }
 ],
 "models": [
@@ -160,7 +177,8 @@
 "ROB-000004",
 "ROB-000005",
 "ROB-000006",
-"ROB-000007"
+"ROB-000007",
+"ROB-000008"
 ],
 "review_ids": [
 "RR-000001",
@@ -171,7 +189,7 @@
 "RR-000006",
 "RR-000007"
 ],
-"next_observation_id": "ROB-000008"
+"next_review_id": "RR-000008"
 }
 ],
 "reviews": [
