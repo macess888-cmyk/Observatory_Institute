@@ -119,26 +119,32 @@
 "models": [
 {
 "id": "RM-000001",
-"title": "Minimum Distinguishability and Identity Threshold Model",
+"title": "Minimum Distinguishability, Identity, and Binding Integrity Model",
 "status": "Provisional — Revised",
 "assessment": "CONDITIONALLY SUPPORTED",
 "irreducibility_status": "NOT ESTABLISHED",
 "dependency_direction": "UNKNOWN",
-"revision_status": "WARRANTED",
-"current_version": "0.2",
-"next_version": "0.3",
-"previous_version": "0.1",
-"revision_basis": [
-"ROB-000001",
-"ROB-000002",
-"ROB-000003",
-"ROB-000004",
-"RR-000001",
-"RR-000002",
-"RR-000003",
-"RR-000004"
+"revision_status": "COMPLETED",
+"version": "0.3",
+"previous_version": "0.2",
+"revision_history": [
+{
+"version": "0.1",
+"title": "Minimum Distinguishability Model",
+"status": "SUPERSEDED"
+},
+{
+"version": "0.2",
+"title": "Minimum Distinguishability and Identity Threshold Model",
+"status": "SUPERSEDED"
+},
+{
+"version": "0.3",
+"title": "Minimum Distinguishability, Identity, and Binding Integrity Model",
+"status": "CURRENT"
+}
 ],
-"next_revision_basis": [
+"revision_basis": [
 "ROB-000005",
 "ROB-000006",
 "ROB-000007",
@@ -165,7 +171,7 @@
 "RR-000006",
 "RR-000007"
 ],
-"next_artifact": "RM-000001 Version 0.3"
+"next_observation_id": "ROB-000008"
 }
 ],
 "reviews": [
