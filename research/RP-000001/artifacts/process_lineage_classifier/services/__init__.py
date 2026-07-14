@@ -45,6 +45,26 @@ from .authority_transfer_classifier import (
     AuthorityTransferClassificationError,
     AuthorityTransferClassifier,
 )
+from .promotion_classifier import (
+    PromotionClassificationError,
+    PromotionClassifier,
+)
+from .demotion_classifier import (
+    DemotionClassificationError,
+    DemotionClassifier,
+)
+from .termination_classifier import (
+    TerminationClassificationError,
+    TerminationClassifier,
+)
+from .revival_classifier import (
+    RevivalClassificationError,
+    RevivalClassifier,
+)
+from .rebinding_classifier import (
+    RebindingClassificationError,
+    RebindingClassifier,
+)
 
 __all__ = [
     "AddressChangeClassificationError",
@@ -72,4 +92,14 @@ __all__ = [
     "TransitionValidator",
     "AuthorityTransferClassificationError",
     "AuthorityTransferClassifier",
+    "PromotionClassificationError",
+    "PromotionClassifier",
+    "DemotionClassificationError",
+    "DemotionClassifier",
+    "TerminationClassificationError",
+    "TerminationClassifier",
+    "RevivalClassificationError",
+    "RevivalClassifier",
+    "RebindingClassificationError",
+    "RebindingClassifier",
 ]
