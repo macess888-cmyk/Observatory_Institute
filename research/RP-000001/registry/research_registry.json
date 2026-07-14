@@ -26,6 +26,19 @@
 }
 ],
 "models": [],
-"reviews": [],
+"reviews": [
+{
+"id": "RR-000001",
+"title": "Research Review of Distinguishability as a Candidate Structure",
+"status": "Completed",
+"assessment": "PARTIALLY SUPPORTED",
+"candidate_status": "PLAUSIBLE",
+"evidence_status": "INSUFFICIENT FOR IRREDUCIBILITY",
+"model_readiness": "CONDITIONALLY READY",
+"version": "0.1",
+"question_id": "RQ-000001",
+"observation_id": "ROB-000001"
+}
+],
 "publications": []
 }
