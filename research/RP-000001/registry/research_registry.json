@@ -179,8 +179,9 @@
 "assessment": "CONDITIONALLY SUPPORTED",
 "irreducibility_status": "NOT ESTABLISHED",
 "dependency_direction": "UNKNOWN",
-"revision_status": "COMPLETED",
-"version": "0.3",
+"revision_status": "WARRANTED",
+"current_version": "0.3",
+"next_version": "0.4",
 "previous_version": "0.2",
 "revision_history": [
 {
@@ -207,6 +208,14 @@
 "RR-000006",
 "RR-000007"
 ],
+"next_revision_basis": [
+"ROB-000008",
+"ROB-000009",
+"ROB-000010",
+"RR-000008",
+"RR-000009",
+"RR-000010"
+],
 "question_id": "RQ-000001",
 "observation_ids": [
 "ROB-000001",
@@ -229,9 +238,10 @@
 "RR-000006",
 "RR-000007",
 "RR-000008",
-"RR-000009"
+"RR-000009",
+"RR-000010"
 ],
-"next_review_id": "RR-000010"
+"next_artifact": "RM-000001 Version 0.4"
 }
 ],
 "reviews": [
@@ -400,6 +410,29 @@
 "version": "0.1",
 "question_id": "RQ-000001",
 "observation_id": "ROB-000009",
+"model_id": "RM-000001"
+},
+{
+"id": "RR-000010",
+"title": "Research Review of Process Identity Across Migration and Restart",
+"status": "Completed",
+"assessment": "PARTIALLY SUPPORTED",
+"layered_process_identity": "SUPPORTED",
+"service_identity_across_restart": "SUPPORTED",
+"runtime_identity_across_restart": "NOT PRESERVED UNDER STRICT CRITERION",
+"execution_continuity_across_restart": "NOT PRESERVED",
+"runtime_continuity_across_validated_migration": "CONDITIONALLY SUPPORTED",
+"state_lineage_across_restore": "SUPPORTED WHEN VERIFIED",
+"clone_identity": "DISTINCT",
+"branching": "SUPPORTED",
+"merging": "MULTIPLE LINEAGES SUPPORTED",
+"split_brain": "IDENTITY COLLISION AND AUTHORITY CONFLICT",
+"continuity_threshold": "WARRANTED",
+"model_impact": "REVISION WARRANTED",
+"irreducibility_status": "UNKNOWN",
+"version": "0.1",
+"question_id": "RQ-000001",
+"observation_id": "ROB-000010",
 "model_id": "RM-000001"
 }
 ],
