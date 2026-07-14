@@ -64,6 +64,22 @@
 "version": "0.1",
 "question_id": "RQ-000001",
 "model_id": "RM-000001"
+},
+{
+"id": "ROB-000005",
+"title": "Operational Identity Created Through Selection",
+"status": "Observed",
+"assessment": "PLAUSIBLE",
+"immediate_targetability": "SUPPORTED",
+"persistent_identity": "NOT CREATED BY SELECTION ALONE",
+"correction_continuity": "REQUIRES PRESERVED BINDING",
+"auditability": "REQUIRES PRESERVED EVIDENCE",
+"member_specific_verification": "REQUIRES REIDENTIFICATION",
+"symmetry_breaking": "OPERATIONALLY SUPPORTED",
+"irreducibility_status": "UNKNOWN",
+"version": "0.1",
+"question_id": "RQ-000001",
+"model_id": "RM-000001"
 }
 ],
 "models": [
@@ -92,7 +108,8 @@
 "ROB-000001",
 "ROB-000002",
 "ROB-000003",
-"ROB-000004"
+"ROB-000004",
+"ROB-000005"
 ],
 "review_ids": [
 "RR-000001",
@@ -100,7 +117,7 @@
 "RR-000003",
 "RR-000004"
 ],
-"next_observation_id": "ROB-000005"
+"next_review_id": "RR-000005"
 }
 ],
 "reviews": [
