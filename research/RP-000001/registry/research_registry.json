@@ -80,6 +80,23 @@
 "version": "0.1",
 "question_id": "RQ-000001",
 "model_id": "RM-000001"
+},
+{
+"id": "ROB-000006",
+"title": "Immutable Records and False Target Continuity",
+"status": "Observed",
+"assessment": "PLAUSIBLE",
+"record_preservation": "SUPPORTED",
+"target_correctness": "NOT ESTABLISHED BY IMMUTABILITY",
+"continuity_proof": "REQUIRES BINDING EVIDENCE",
+"false_continuity_risk": "SUPPORTED",
+"rebinding_visibility": "REQUIRED",
+"correction_traceability": "REQUIRED",
+"independent_verification": "PROVISIONALLY REQUIRED FOR STRONG CLAIMS",
+"irreducibility_status": "UNKNOWN",
+"version": "0.1",
+"question_id": "RQ-000001",
+"model_id": "RM-000001"
 }
 ],
 "models": [
@@ -109,7 +126,8 @@
 "ROB-000002",
 "ROB-000003",
 "ROB-000004",
-"ROB-000005"
+"ROB-000005",
+"ROB-000006"
 ],
 "review_ids": [
 "RR-000001",
@@ -118,7 +136,7 @@
 "RR-000004",
 "RR-000005"
 ],
-"next_observation_id": "ROB-000006"
+"next_review_id": "RR-000006"
 }
 ],
 "reviews": [
