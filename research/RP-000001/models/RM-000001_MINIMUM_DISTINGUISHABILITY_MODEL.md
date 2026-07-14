@@ -1,14 +1,14 @@
 # RM-000001
 
-# Minimum Distinguishability, Identity, and Binding Integrity Model
+# Minimum Distinguishability, Identity, Binding Integrity, and Continuity Model
 
 **Research Program:** RP-000001 — Organized Understanding
 **Research Question:** RQ-000001 — Irreducible Structures of Organized Understanding
-**Supporting Observations:** ROB-000001 through ROB-000007
-**Supporting Reviews:** RR-000001 through RR-000007
+**Supporting Observations:** ROB-000001 through ROB-000010
+**Supporting Reviews:** RR-000001 through RR-000010
 **Artifact Type:** Research Model
-**Version:** 0.3
-**Previous Version:** 0.2 — Minimum Distinguishability and Identity Threshold Model
+**Version:** 0.4
+**Previous Version:** 0.3 — Minimum Distinguishability, Identity, and Binding Integrity Model
 **Status:** PROVISIONAL — REVISED
 **Date Revised:** 2026-07-14
 
@@ -16,45 +16,56 @@
 
 ## 1. Revision Purpose
 
-Version 0.3 revises RM-000001 in response to evidence accumulated through:
+Version 0.4 revises RM-000001 in response to evidence accumulated through:
 
-* ROB-000005 — Operational Identity Created Through Selection;
-* ROB-000006 — Immutable Records and False Target Continuity;
-* ROB-000007 — Conflicting Immutable Identity Claims;
-* RR-000005 through RR-000007.
+* ROB-000008 — External Anchors and Identity Regress;
+* ROB-000009 — Identity Through Continuous Transformation;
+* ROB-000010 — Process Identity Across Migration and Restart;
+* RR-000008 through RR-000010.
 
-Version 0.2 established separate thresholds for distinguishability and identity.
-
-Version 0.3 adds a third structure:
+Version 0.3 established three candidate structures:
 
 ```text
+Distinguishability
+Identity
 Binding Integrity
 ```
 
-Binding integrity concerns whether an identifiable reference, record, claim, role, position, or identifier remains correctly associated with its intended target within a defined context and time.
+Version 0.4 adds a fourth:
 
-The revision also introduces:
+```text
+Continuity
+```
 
-* record identity;
-* reference identity;
-* claim identity;
-* target identity;
-* conflict identity;
-* target-binding semantics;
-* binding scope;
-* temporal validity;
-* rebinding;
-* identity collision;
-* duplicate references;
-* evidence lineage;
-* conflict normalization;
-* non-destructive reconciliation;
-* uncertainty propagation;
-* consequence-scaled thresholds.
+Continuity concerns whether sufficient evidence connects a target, process, state, role, pattern, service, or lineage across time and transformation.
+
+This revision also introduces:
+
+* continuity thresholds;
+* continuity layers;
+* embodied continuity;
+* causal continuity;
+* process identity;
+* service identity;
+* runtime-instance identity;
+* execution identity;
+* state identity;
+* state lineage;
+* event lineage;
+* branching;
+* merging;
+* succession;
+* migration;
+* restart;
+* restoration;
+* cloning;
+* split-brain identity conflict;
+* operational closure;
+* layered continuity status.
 
 The model remains provisional.
 
-No candidate structure is declared irreducible.
+No candidate structure is declared universally irreducible.
 
 ---
 
@@ -66,14 +77,16 @@ This model remains:
 PROVISIONAL
 EVIDENCE-BOUNDED
 REVIEW-CONDITIONED
+OPERATION-DEPENDENT
+DOMAIN-DEPENDENT
 REVISION-OPEN
-NOT ESTABLISHED AS UNIVERSAL
+NOT UNIVERSALLY ESTABLISHED
 UNKNOWN → HOLD
 ```
 
 The model organizes current evidence.
 
-It does not replace observation, review, counterexample search, or external validation.
+It does not establish a final metaphysics of identity, continuity, persistence, or organized understanding.
 
 ---
 
@@ -81,9 +94,9 @@ It does not replace observation, review, counterexample search, or external vali
 
 The model proposes:
 
-> Organized understanding requires sufficient distinguishability, sufficient identity, and sufficient binding integrity for the operation, level, scale, context, time, and consequence under investigation.
+> Organized understanding requires sufficient distinguishability, sufficient identity, sufficient binding integrity, and sufficient continuity for the operation, level, scale, context, time, domain, and consequence under investigation.
 
-These structures are related but distinct.
+The four structures are related but distinct.
 
 ```text
 Distinguishability
@@ -91,17 +104,21 @@ Distinguishability
 Identity
         ≠
 Binding Integrity
+        ≠
+Continuity
 ```
 
-Distinguishability concerns whether a relevant difference can be detected.
+Distinguishability concerns whether relevant differences can be detected.
 
-Identity concerns whether a target, pattern, class, source, claim, or continuing object can be identified sufficiently for a required operation.
+Identity concerns whether a relevant target, class, pattern, process, source, claim, or role can be identified.
 
-Binding integrity concerns whether the identity-bearing reference remains correctly associated with the intended target.
+Binding integrity concerns whether a reference, record, claim, role, or identifier remains correctly associated with its intended target.
+
+Continuity concerns whether the relevant target or lineage remains sufficiently connected across time, transition, replacement, migration, interruption, branching, or restoration.
 
 ---
 
-## 4. Triple-Threshold Structure
+## 4. Four-Threshold Structure
 
 Let:
 
@@ -109,103 +126,158 @@ Let:
 D = available distinguishability
 I = available identity
 B = available binding integrity
+C = available continuity evidence
 ```
 
 Let:
 
 ```text
-Tᴅ(o,l,s,c,t,k) = distinguishability threshold
-Tᵢ(o,l,s,c,t,k) = identity threshold
-Tᵦ(o,l,s,c,t,k) = binding-integrity threshold
+Tᴅ(o,l,s,c,t,d,k) = distinguishability threshold
+Tᵢ(o,l,s,c,t,d,k) = identity threshold
+Tᵦ(o,l,s,c,t,d,k) = binding-integrity threshold
+T꜀(o,l,s,c,t,d,k) = continuity threshold
 ```
 
 where:
 
 * `o` = operation;
-* `l` = level;
+* `l` = identity or system level;
 * `s` = scale;
 * `c` = context;
 * `t` = temporal condition;
+* `d` = domain;
 * `k` = consequence class.
 
-An operation is provisionally admissible when:
+An operation requiring all four structures is provisionally admissible when:
 
 ```text
 D ≥ Tᴅ
-```
-
-and:
-
-```text
 I ≥ Tᵢ
-```
-
-and:
-
-```text
 B ≥ Tᵦ
+C ≥ T꜀
 ```
 
-Failure of any threshold may produce a different class of failure.
+Not every operation requires a high threshold in every dimension.
 
 ---
 
-## 5. Threshold Failure Types
+## 5. Threshold Applicability
 
-### 5.1 Distinguishability Failure
+The four thresholds are not uniformly required.
+
+### Present-State Observation
+
+May require:
+
+```text
+D ≥ Tᴅ
+I ≥ Tᵢ
+```
+
+with low continuity requirements.
+
+### Targeted Immediate Action
+
+May require:
+
+```text
+D ≥ Tᴅ
+I ≥ Tᵢ
+B ≥ Tᵦ
+```
+
+with short-lived continuity through action and verification.
+
+### Historical Attribution
+
+May require all four thresholds at high strength.
+
+### Pattern Recognition
+
+May require high pattern distinguishability while requiring little component identity or continuity.
+
+### Service Availability Check
+
+May require current service identity and availability evidence without requiring runtime-instance continuity.
+
+The operation must declare which thresholds are relevant.
+
+---
+
+## 6. Failure Classes
+
+### 6.1 Distinguishability Failure
 
 ```text
 D < Tᴅ
 ```
 
-Relevant differences cannot be detected reliably.
+Relevant differences cannot be reliably detected.
 
 Possible consequences:
 
+* state collapse;
 * ambiguity;
-* collapsed states;
-* unlocalized error;
-* indistinguishable alternatives;
+* hidden conflict;
+* unlocalized deviation;
+* undetected replacement;
 * pattern loss.
 
-### 5.2 Identity Failure
+### 6.2 Identity Failure
 
 ```text
 I < Tᵢ
 ```
 
-A relevant target cannot be identified sufficiently.
+A target cannot be identified sufficiently.
 
 Possible consequences:
 
 * unattributable action;
-* lost continuity;
 * unresolved membership;
-* inability to reidentify;
+* lost source identity;
+* inability to select or reidentify;
 * weak accountability.
 
-### 5.3 Binding-Integrity Failure
+### 6.3 Binding-Integrity Failure
 
 ```text
 B < Tᵦ
 ```
 
-A reference exists, but its association with the intended target is incorrect, incomplete, stale, conflicting, expired, or unverifiable.
+A reference exists but is incorrectly, incompletely, ambiguously, or stale-bound to its intended target.
 
 Possible consequences:
 
 * wrong-target action;
 * false continuity;
-* inherited identity error;
-* incorrect audit conclusion;
-* conflicting records;
-* misdirected correction.
+* collision;
+* inherited error;
+* incorrect audit conclusion.
+
+### 6.4 Continuity Failure
+
+```text
+C < T꜀
+```
+
+The system cannot adequately connect relevant states, executions, roles, targets, or lineages across time.
+
+Possible consequences:
+
+* broken history;
+* unsupported recurrence claim;
+* uncertain restoration;
+* hidden branching;
+* unresolved succession;
+* false persistence;
+* false discontinuity.
 
 ---
 
-## 6. Operational Sufficiency
+## 7. Four-Part Operational Structure
 
-A strong operational claim requires:
+A strong temporal operational claim requires:
 
 ```text
 Relevant Difference
@@ -213,143 +285,200 @@ Relevant Difference
 Sufficient Identity
         +
 Valid Target Binding
+        +
+Adequate Continuity Evidence
         │
         ▼
-Operationally Reliable Target or Pattern
+Reliable Temporal Target or Process Claim
         │
         ▼
-Action, Review, Correction, or Conclusion
+Action, Review, Attribution, Correction, or Publication
 ```
 
-A system may possess identity without valid binding.
+A system may satisfy three structures while failing the fourth.
 
-For example:
-
-```text
-Reference TARGET-1 exists.
-```
-
-but:
+Example:
 
 ```text
-TARGET-1 may not refer to the intended target.
+The current runtime is correctly identified and bound,
+but its continuity with the earlier runtime is unverified.
 ```
 
 Therefore:
 
 ```text
-Identifiable Reference
+Correct Current Binding
         ≠
-Correctly Bound Target
+Established Historical Continuity
 ```
 
 ---
 
-## 7. Distinguishability Types
+## 8. Distinguishability Types
 
 The model retains the following forms.
 
-### 7.1 Multiplicity Distinguishability
+### 8.1 Multiplicity Distinguishability
 
-The observer can determine that more than one occurrence or position exists.
+More than one occurrence, state, target, or branch can be detected.
 
-### 7.2 Component Distinguishability
+### 8.2 Component Distinguishability
 
-Individual components can be separated within a present observation.
+Individual components can be separated within an observation.
 
-### 7.3 Relational Distinguishability
+### 8.3 Relational Distinguishability
 
 Positions differ because their relational configurations differ.
 
-### 7.4 Pattern Distinguishability
+### 8.4 Pattern Distinguishability
 
-A global configuration remains distinguishable through topology, count, arrangement, symmetry, density, orientation, or collective behaviour.
+A global configuration remains identifiable through topology, sequence, structure, symmetry, distribution, or behaviour.
 
-### 7.5 Status Distinguishability
+### 8.5 Status Distinguishability
 
-Epistemic and operational states remain separable.
+Epistemic and operational states remain separate.
 
 ```text
-Claimed ≠ Observed
-Observed ≠ Verified
-Verified ≠ Accepted
-Disputed ≠ Invalidated
-Unknown ≠ False
+CLAIMED ≠ OBSERVED
+OBSERVED ≠ VERIFIED
+VERIFIED ≠ ACCEPTED
+CONTINUOUS ≠ RESTORED
+MIGRATED ≠ RESTARTED
+BRANCHED ≠ MERGED
+UNKNOWN ≠ FALSE
 ```
 
-### 7.6 Conflict Distinguishability
+### 8.6 Conflict Distinguishability
 
-Competing claims remain visible as separate claims rather than collapsing into one record.
+Competing claims, bindings, branches, or continuity interpretations remain visible.
+
+### 8.7 Temporal Distinguishability
+
+Earlier and later states remain ordered and separable.
 
 ---
 
-## 8. Identity Types
+## 9. Identity Types
 
-### 8.1 Token Existence
+### 9.1 Token Identity
 
-A separate occurrence exists.
+A separate occurrence is identifiable.
 
-### 8.2 Temporary Positional Identity
+### 9.2 Temporary Positional Identity
 
-A target can be referenced within the current representation or operation.
+A target is identifiable within the present operation or representation.
 
-### 8.3 Relational Identity
+### 9.3 Relational Identity
 
-A target is identified through a distinctive relational configuration.
+A target is identifiable through distinctive relations.
 
-### 8.4 Class Identity
+### 9.4 Class Identity
 
-A target is identified as a member of an equivalence class.
+A target is identifiable as a member of a defined equivalence class.
 
-### 8.5 Pattern Identity
+### 9.5 Pattern Identity
 
-A configuration is identified as a whole.
+A global configuration is identifiable as a whole.
 
-### 8.6 Unique Identity
+### 9.6 Unique Identity
 
-A particular member is distinguishable from all relevant alternatives.
+A target is distinguishable from all relevant alternatives.
 
-### 8.7 Persistent Identity
+### 9.7 Persistent Identity
 
-A target can be reidentified across time, movement, representation, or state change.
+A target can be reidentified across time or transformation.
 
-### 8.8 Source Identity
+### 9.8 Operational Identity
 
-A claim, action, observation, or decision remains attributable to a source.
+A temporary identity created or activated through selection, locking, measurement, labeling, or intervention.
 
-### 8.9 Temporal Identity
+### 9.9 Source Identity
 
-A target remains connected across successive states.
+A claim, observation, action, or decision remains attributable to a source.
 
-### 8.10 Operational Identity
-
-A temporary identity created or activated through selection, labeling, locking, measurement, or intervention.
-
-### 8.11 Record Identity
+### 9.10 Record Identity
 
 A preserved record remains uniquely identifiable.
 
-### 8.12 Reference Identity
+### 9.11 Reference Identity
 
-An identifier, label, handle, address, role, or pointer remains identifiable as a reference object.
+A label, identifier, handle, address, credential, or role remains identifiable as a reference object.
 
-### 8.13 Claim Identity
+### 9.12 Claim Identity
 
-A proposition or assertion remains identifiable for citation, comparison, correction, and review.
+A proposition remains identifiable for citation, comparison, correction, and review.
 
-### 8.14 Conflict Identity
+### 9.13 Conflict Identity
 
-A structured conflict among claims remains identifiable as a reviewable research object.
+A conflict among claims or bindings remains identifiable as a distinct research object.
 
-### 8.15 Target Identity
+### 9.14 Target Identity
 
-The object, person, process, state, role, position, or pattern that a reference is intended to identify.
+The entity, role, state, process, pattern, or object intended by a claim or reference.
+
+### 9.15 Process Identity
+
+A continuing activity or transformation sequence remains identifiable across state changes.
+
+### 9.16 Service Identity
+
+A logical capability remains identifiable through authorized succession of runtime components.
+
+### 9.17 Runtime-Instance Identity
+
+A particular instantiated deployment remains identifiable across its defined lifecycle.
+
+### 9.18 Execution Identity
+
+One continuous or formally bridged run remains identifiable.
+
+### 9.19 State Identity
+
+A defined state version or snapshot remains identifiable.
+
+### 9.20 Lineage Identity
+
+A derivation path remains identifiable even where unique numerical identity does not persist.
 
 ---
 
-## 9. Record, Reference, Claim, and Target Separation
+## 10. Identity-Layer Separation
 
-The model requires the following separation:
+A system may contain multiple identity layers:
+
+```text
+Logical Service
+        ↓ instantiated as
+Runtime Instance
+        ↓ performs
+Execution
+        ↓ carries
+State
+        ↓ produces
+Event Lineage
+```
+
+These identities must not be collapsed.
+
+```text
+Service Identity
+        ≠
+Runtime Identity
+        ≠
+Execution Identity
+        ≠
+State Identity
+        ≠
+Lineage Identity
+```
+
+A service may remain continuous while the runtime and execution are replaced.
+
+---
+
+## 11. Record, Reference, Claim, Target, and Continuity Separation
+
+The model now requires:
 
 ```text
 Record
@@ -359,765 +488,1115 @@ Reference
 Claim
         ≠
 Target
+        ≠
+Continuity Relation
 ```
 
-A record preserves content.
-
-A reference points or purports to point.
-
-A claim asserts a relation.
-
-A target is the entity or structure the claim concerns.
-
-For example:
+Example:
 
 ```text
 Record R1
 contains
 Claim C1
 using
-Reference TARGET-1
+Reference SERVICE-A
 to identify
-Target A
+Target Runtime X
+and asserting
+Continuity with Runtime W
 ```
 
-Each layer may succeed or fail independently.
+Each layer may be correct or incorrect independently.
 
 ---
 
-## 10. Binding Integrity
+## 12. Binding Integrity
 
-Binding integrity is the condition in which a reference remains correctly associated with its intended target within a declared:
+Binding integrity remains defined as the condition in which a reference is sufficiently and correctly associated with its intended target within a declared:
 
 * target type;
+* binding type;
 * namespace;
 * scope;
-* temporal interval;
-* continuity criterion;
-* binding semantics;
-* evidence boundary.
+* time interval;
+* evidence boundary;
+* status.
+
+A correct binding may identify the current target without establishing historical continuity.
+
+---
+
+## 13. Continuity
+
+Continuity is the condition in which sufficient evidence connects relevant states or identity-bearing structures across time or transformation.
 
 A provisional definition is:
 
-> Binding integrity exists when a target-reference association remains sufficiently explicit, temporally valid, non-conflicting, inspectable, and supported for the claim or operation being performed.
+> Continuity exists when a target, process, state, role, pattern, service, or lineage remains sufficiently connected across a transition for the operation and consequence under evaluation.
 
----
-
-## 11. Binding Components
-
-A binding should identify:
+Continuity is not the absence of change.
 
 ```text
-Reference
-Target
-Target Type
-Binding Type
-Namespace
-Effective Start
-Effective End or Expiration
-Source
-Evidence
-Status
+Continuity
+        ≠
+State Sameness
 ```
 
-Optional but important fields may include:
-
-* confidence;
-* authority;
-* method;
-* correction history;
-* rebinding history;
-* supersession effect;
-* verification lineage.
+Continuity concerns traceable connection through change.
 
 ---
 
-## 12. Binding Types
+## 14. Continuity Components
 
-Candidate binding types include:
-
-### 12.1 Position Binding
-
-The reference identifies a location or structural position.
-
-### 12.2 Occupant Binding
-
-The reference identifies the entity occupying a position.
-
-### 12.3 Role Binding
-
-The reference identifies a function or institutional role.
-
-### 12.4 Actor Binding
-
-The reference identifies a specific actor.
-
-### 12.5 Process Binding
-
-The reference identifies a running or logical process.
-
-### 12.6 Record Binding
-
-The reference identifies a preserved artifact.
-
-### 12.7 State Binding
-
-The reference identifies a state at a specified time.
-
-### 12.8 Pattern Binding
-
-The reference identifies a global configuration.
-
-### 12.9 Class Binding
-
-The reference identifies any acceptable member of a defined class.
-
-These bindings must not be treated as interchangeable.
-
----
-
-## 13. Binding Semantics
-
-A binding statement should specify the relation being claimed.
-
-Examples include:
+A continuity claim should identify:
 
 ```text
-TARGET-1 is occupied by Member A.
-TARGET-1 is controlled by Member A.
-TARGET-1 is assigned to Member A.
-TARGET-1 represents Member A.
-TARGET-1 currently refers to Member A.
-TARGET-1 historically referred to Member A.
+Prior State or Target
+Current State or Target
+Continuity Layer
+Transition Type
+Transition Evidence
+Temporal Scope
+Branching Status
+Merge Status
+Interruption Status
+Confidence
+Operational Consequence
+```
+
+Optional fields may include:
+
+* source;
+* authority;
+* event lineage;
+* observer resolution;
+* continuity criterion;
+* verification method;
+* competing continuity claims.
+
+---
+
+## 15. Continuity Criteria
+
+Possible continuity criteria include:
+
+### 15.1 Material Continuity
+
+The same physical matter persists.
+
+### 15.2 Spatial Continuity
+
+The target follows a continuous path.
+
+### 15.3 Temporal Continuity
+
+Existence remains uninterrupted.
+
+### 15.4 Causal Continuity
+
+Later states arise through a traceable causal chain from earlier states.
+
+### 15.5 Structural Continuity
+
+Organization or topology remains sufficiently stable.
+
+### 15.6 Functional Continuity
+
+The same function continues.
+
+### 15.7 Informational Continuity
+
+Relevant information or state persists.
+
+### 15.8 Historical Continuity
+
+A recognized history or succession remains preserved.
+
+### 15.9 Institutional Continuity
+
+Authority, recognition, charter, role, or governance treats the target as continuing.
+
+### 15.10 Process Continuity
+
+An activity, execution, or transformation sequence remains connected across transitions.
+
+No criterion is universal across every domain.
+
+---
+
+## 16. Continuity Criterion Declaration
+
+A continuity claim must answer:
+
+```text
+Continuous in what respect?
+```
+
+Examples:
+
+```text
+materially continuous
+causally continuous
+historically continuous
+functionally continuous
+execution-continuous
+state-lineage continuous
+institutionally continuous
 ```
 
 The phrase:
 
 ```text
-TARGET-1 = Member A
+same target
 ```
 
-is under-specified without context.
+is under-specified without a continuity criterion.
 
 ---
 
-## 14. Temporal Binding Scope
+## 17. Continuity Status
 
-A binding may be valid only during a defined interval.
-
-```text
-Reference: TARGET-1
-Target: Member A
-Effective From: t₁
-Effective Until: t₂
-```
-
-A historically correct binding may become a false present claim after expiration or rebinding.
-
-Therefore:
+Candidate continuity statuses include:
 
 ```text
-Binding Valid at t₁
-        ≠
-Binding Valid at t₂
-```
-
----
-
-## 15. Binding Status
-
-Candidate statuses include:
-
-```text
-CLAIMED
-OBSERVED
-VERIFIED
-DISPUTED
+CONTINUOUS
+CONDITIONALLY CONTINUOUS
+MIGRATED
+RESTARTED
+RESTORED
+SUCCEEDED
+REPLACED
+CLONED
+BRANCHED
+MERGED
+REVIVED
+INTERRUPTED
+TERMINATED
 UNVERIFIED
-REBOUND
-EXPIRED
-SUPERSEDED
-INVALIDATED
-COLLIDING
+CONTESTED
 UNKNOWN
 ```
 
-Status must remain separate from record existence.
+A status should be assigned to a declared identity layer.
+
+Example:
 
 ```text
-Record Exists
+service_identity: CONTINUOUS
+runtime_identity: REPLACED
+execution_identity: TERMINATED
+state_lineage: RESTORED
+availability: CONTINUOUS
+```
+
+---
+
+## 18. Embodied Continuity
+
+Embodied continuity may support identity where:
+
+* a bounded physical system persists;
+* transformation remains traceable;
+* no competing continuation exists;
+* observation or custody remains adequate.
+
+It weakens under:
+
+* boundary ambiguity;
+* component replacement;
+* branching;
+* merging;
+* reconstruction;
+* observer gaps.
+
+Embodied continuity is a strong operational candidate, not a universal foundation.
+
+---
+
+## 19. Causal Continuity
+
+Causal continuity connects states through a traceable process:
+
+```text
+S₁
+    ↓ causes
+S₂
+    ↓ causes
+S₃
+```
+
+Causal continuity may preserve lineage through transformation.
+
+It does not automatically establish numerical sameness.
+
+```text
+Causal Successor
         ≠
-Binding Verified
+Necessarily Same Entity
 ```
 
 ---
 
-## 16. Operational Identity Through Selection
+## 20. Historical Continuity
 
-Selection may create or activate a temporary target identity.
+Historical continuity may preserve identity through:
 
-```text
-Equivalent Members
-        │
-        ▼
-Selection
-        │
-        ▼
-Temporary Asymmetry
-        │
-        ▼
-Operational Identity
-```
+* authorized succession;
+* preserved records;
+* accepted transfer;
+* institutional recognition;
+* continuous governance;
+* maintained purpose.
 
-Operational identity may be sufficient for immediate action when:
+It may remain valid despite complete component turnover.
 
-* the target remains stable;
-* the binding scope is explicit;
-* exchange is prevented or detectable;
-* verification occurs before expiration;
-* persistent accountability is unnecessary.
+Historical continuity is operationally powerful and convention-dependent.
 
 ---
 
-## 17. Selection Does Not Guarantee Binding
+## 21. Process Identity
 
-Selection alone does not establish that:
+Process identity concerns persistence through activity and transformation rather than fixed material composition.
 
-* the intended occupant was selected;
-* the reference follows the occupant;
-* replacement cannot occur;
-* the target remains the same through action;
-* verification reaches the same target.
+A process may persist through:
 
-Therefore:
-
-```text
-Selection
-        ≠
-Preserved Target Binding
-```
-
----
-
-## 18. Binding Attachment Semantics
-
-A selection should declare what it attaches to:
-
-```text
-Position
-Occupant
-Role
-Account
-Process
-Device
-Record
-State
-Pattern
-```
-
-Without attachment semantics, target continuity cannot be evaluated reliably.
-
----
-
-## 19. Binding Expiration
-
-Operational identity should be treated as time-bounded unless continuity is actively preserved.
-
-Possible expiration conditions include:
-
-* action completion;
-* timeout;
-* movement;
-* replacement;
-* process restart;
-* role transfer;
-* reference reuse;
-* evidence degradation;
+* implementation change;
+* substrate change;
+* host migration;
+* component replacement;
 * state transition.
 
----
-
-## 20. Rebinding
-
-Rebinding occurs when the same reference becomes associated with a different target.
+Its identity may depend on:
 
 ```text
-t₁: TARGET-1 → Member A
-t₂: TARGET-1 → Member B
+Execution History
+State Lineage
+Rule Continuity
+Authority
+Purpose
+Succession
 ```
 
-Rebinding may be valid.
+---
 
-It must remain visible where continuity matters.
+## 22. Process Identity Versus Pattern Identity
+
+Pattern identity concerns recognizable configuration.
+
+Process identity concerns continuing activity or transformation through time.
 
 ```text
-Reference Continuity
+Process Identity
         ≠
-Target Continuity
+Pattern Identity
 ```
+
+A pattern may recur in separate processes.
+
+A process may change pattern while remaining the same ongoing process under an accepted criterion.
 
 ---
 
-## 21. Identity Collision
+## 23. Identity Versus Lineage
 
-A collision occurs when one reference is associated with multiple targets within an overlapping scope.
+Lineage records derivation.
 
-```text
-TARGET-1 → Member A
-TARGET-1 → Member B
-```
-
-If unique binding is required, collision degrades or destroys binding integrity.
-
----
-
-## 22. Duplicate References
-
-One target may receive multiple references.
+Identity asserts continuity or sameness.
 
 ```text
-TARGET-1 → Member A
-TARGET-2 → Member A
-```
-
-This may create:
-
-* false multiplicity;
-* fragmented history;
-* duplicated responsibility;
-* incomplete reconciliation.
-
-Duplicate references do not necessarily indicate multiple targets.
-
----
-
-## 23. False Continuity
-
-False continuity occurs when stable record or reference identity is mistaken for stable target identity.
-
-```text
-Same Identifier
-        │
-        ▼
-Assumed Same Target
-```
-
-This inference is unsafe where:
-
-* rebinding;
-* replacement;
-* migration;
-* role transfer;
-* identifier reuse;
-* hidden collision;
-
-remain possible.
-
----
-
-## 24. Immutable Records
-
-Immutability may establish:
-
-* record existence;
-* recorded content;
-* sequence;
-* source;
-* non-alteration after admission.
-
-Immutability does not establish:
-
-* observation accuracy;
-* target correctness;
-* semantic completeness;
-* identity continuity;
-* absence of collision;
-* absence of hidden events.
-
-```text
-Immutable Record
+Identity
         ≠
-Verified Target Truth
+Lineage
 ```
+
+A successor may derive from a prior entity without being the same entity.
+
+Branching and cloning preserve lineage while disrupting unique identity.
 
 ---
 
-## 25. Evidence Preservation and Truth
+## 24. External Anchors
 
-The model distinguishes:
+External anchors can resolve local ambiguity by introducing asymmetry.
 
 ```text
-Evidence Preservation
-        ≠
-Truth Preservation
+Anchor X
+        ↓
+Target A
 ```
 
-Evidence preservation supports later inquiry.
+The target becomes identifiable relative to the anchor.
 
-Truth claims require correspondence between record, reference, claim, and target.
+However:
 
-A perfectly preserved false claim remains false.
+```text
+Anchor Identity
+        ≠
+Target Identity
+```
+
+and:
+
+```text
+Strong Anchor
+        +
+Weak Binding
+        =
+Weak Target Claim
+```
+
+Anchoring structures identity dependence rather than eliminating it.
 
 ---
 
-## 26. Inherited Binding Error
+## 25. Anchor Regress
 
-A wrong target binding may propagate through:
+An anchor may depend on another anchor.
+
+```text
+Target
+    ↓
+Anchor X
+    ↓
+Anchor Y
+    ↓
+Anchor Z
+```
+
+This may be:
+
+* a valid traceability chain;
+* an unresolved foundational regress;
+* an operationally sufficient chain;
+* an institutionally closed chain.
+
+The distinction depends on whether the chain terminates at a sufficiently supported evidentiary condition.
+
+---
+
+## 26. Operational Closure
+
+Operational closure occurs when identity and continuity evidence are sufficient for the current operation and consequence.
+
+```text
+Operational Closure
+        ≠
+Epistemic Finality
+```
+
+An institution may accept a registry, chain of custody, or validated migration event as sufficient for action without claiming ultimate identity truth.
+
+---
+
+## 27. Selection and Short-Lived Continuity
+
+Selection may create temporary operational identity.
+
+A valid selection process requires continuity through:
 
 ```text
 Selection
-    ↓
-Authorization
     ↓
 Action
     ↓
 Verification
-    ↓
-Audit
-    ↓
-Model
-    ↓
-Publication
 ```
 
-Every downstream stage may be locally coherent while inheriting the original error.
+The continuity period may be short.
+
+Selection does not create persistent identity by itself.
+
+---
+
+## 28. Restart
+
+A restart terminates one execution and begins another.
+
+It may preserve:
+
+* service identity;
+* function;
+* authority;
+* deployment lineage;
+* restored state.
+
+It does not preserve uninterrupted execution.
 
 ```text
-Valid Processing
-        +
-Invalid Binding
+Restart
         =
-Inherited Identity Error
+Execution Discontinuity
 ```
 
 ---
 
-## 27. Circular Verification
+## 29. Warm Restart
 
-Circular verification occurs when the same untested reference is used throughout a process.
+A warm restart may preserve current state lineage.
 
 ```text
-TARGET-1 selected
-TARGET-1 modified
-TARGET-1 verified
+State S₁
+        ↓ terminate
+State S₁
+        ↓ resume
+State S₂
 ```
 
-This may establish reference consistency.
+This supports state succession.
 
-It does not establish independent target continuity.
+It does not preserve execution continuity.
 
 ---
 
-## 28. Evidence Lineage
+## 30. Cold Restart
 
-Evidence lineage records where supporting evidence originated and whether apparent corroboration is independent.
+A cold restart may preserve service identity while losing prior state.
 
 ```text
-Record Count
+Service Continuity
         ≠
-Independent Evidence Count
+State Continuity
 ```
 
-Multiple records derived from one source remain one evidentiary lineage.
-
-Lineage should identify:
-
-* source;
-* derivation;
-* transformation;
-* dependency;
-* inherited assumptions;
-* independent observation boundary.
+This is valid for stateless or state-independent services.
 
 ---
 
-## 29. Independent Verification
+## 31. Migration
 
-Independent verification is claim-dependent.
+Migration transfers execution or runtime state between environments.
 
-It may be unnecessary for weak claims such as:
+A validated migration may preserve runtime or execution identity when:
 
-```text
-The system recorded TARGET-1.
-```
-
-It may be required for stronger claims such as:
-
-```text
-TARGET-1 identified the same physical entity throughout selection, action, and verification.
-```
-
-Independence may involve:
-
-* separate sensor;
-* separate witness;
-* alternative identifier;
-* physical continuity;
-* external registry;
-* cryptographic attestation;
-* independent state transition evidence.
+* one execution is transferred;
+* state sequence remains continuous;
+* no branch occurs;
+* source and destination are linked;
+* authority remains preserved;
+* transition evidence is complete.
 
 ---
 
-## 30. Conflict Identity
+## 32. Migration Bridge
 
-When claims conflict, the conflict itself becomes a structured research object.
+A migration identity claim requires:
 
 ```text
-Claim R1
-        ↘
-         Conflict IC-001
-        ↗
-Claim R2
+Source Runtime
+        ↓
+Migration Event
+        ↓
+Destination Runtime
 ```
 
-Conflict identity supports:
+Candidate evidence includes:
 
-* localization;
-* review;
-* classification;
-* reconciliation;
-* uncertainty preservation;
-* revision history.
+* migration transaction;
+* source and destination acknowledgements;
+* monotonic state sequence;
+* pause and resume trace;
+* source deactivation;
+* absence of simultaneous duplicates;
+* preserved authority.
+
+Without a bridge, migration may be indistinguishable from recreation.
 
 ---
 
-## 31. Conflict Normalization
+## 33. Stop-and-Restore
 
-Claims should be normalized before being treated as incompatible.
+Stop-and-restore creates:
 
-Required comparison dimensions include:
+* a new execution;
+* usually a new runtime instance;
+* inherited state lineage;
+* possible service continuity.
 
-```text
-Reference
-Namespace
-Target Type
-Binding Type
-Scope
-Effective Time
-Continuity Criterion
-Source
-Evidence Method
-Status
-```
-
-Two apparently conflicting claims may both be valid under different semantics, scopes, or intervals.
+It should be represented as succession rather than uninterrupted execution.
 
 ---
 
-## 32. Authentic Conflict
+## 34. Snapshot Identity
 
-Where normalized claims remain incompatible:
+A snapshot is a state artifact.
 
 ```text
-Authentic Record R1
-        +
-Authentic Record R2
-        +
-Incompatible Bindings
-        =
-Authentic Conflict
+Snapshot Identity
+        ≠
+Runtime Identity
 ```
 
-Authenticity establishes provenance.
+A snapshot preserves a representation of state.
 
-It does not resolve truth.
+It does not preserve active execution.
 
 ---
 
-## 33. Authority and Truth
+## 35. Restoration
 
-Authority may determine operational precedence.
+Restoration creates a new execution derived from a prior saved state.
+
+It may preserve:
+
+* state lineage;
+* service succession;
+* historical derivation.
+
+It does not preserve:
+
+* uninterrupted execution;
+* original runtime identity.
+
+---
+
+## 36. Cloning
+
+Cloning creates distinct runtime identities from shared prior state.
 
 ```text
-Controlling Record: R1
+Snapshot S
+├── Runtime A
+└── Runtime B
 ```
 
-This may support action.
+The clones share lineage.
 
-It does not establish:
+They do not share numerical runtime identity.
 
 ```text
-R1 is epistemically proven.
+Common Lineage
+        ≠
+Common Identity
 ```
+
+---
+
+## 37. Branching
+
+Branching occurs when one prior state or process produces multiple successors.
+
+```text
+        B
+       /
+A ────
+       \
+        C
+```
+
+Branching preserves lineage.
+
+It disrupts unique continuation unless a domain-specific rule selects one branch.
+
+---
+
+## 38. Branch Selection
+
+A domain may select one branch using:
+
+* authority;
+* majority material;
+* original control;
+* accepted succession;
+* spatial continuity;
+* execution priority;
+* legal designation.
+
+Branch selection creates operational closure.
+
+It does not establish universal numerical truth.
+
+---
+
+## 39. Merging
+
+Merging occurs when multiple lineages produce one successor.
+
+```text
+A ──\
+     → C
+B ──/
+```
+
+The merged state has multiple lineages.
+
+It is not identical to either predecessor state.
+
+The higher-level service or institution may remain continuous through accepted reconciliation.
+
+---
+
+## 40. Split-Brain
+
+Split-brain occurs when multiple runtimes claim one exclusive identity or authority role.
+
+Possible effects include:
+
+* identity collision;
+* duplicate authority;
+* divergent state;
+* conflicting writes;
+* ambiguous controlling runtime.
+
+The correct status may be:
+
+```text
+SERVICE IDENTITY: CONFLICTED
+AUTHORITY BINDING: COLLIDING
+STATE LINEAGE: BRANCHED
+```
+
+---
+
+## 41. Succession
+
+Succession preserves a higher-level identity through replacement of a lower-level identity.
+
+Example:
+
+```text
+SERVICE-A
+    ↓ succeeded by
+Runtime Instance 002
+```
+
+Succession requires:
+
+* recognized relationship;
+* authority;
+* temporal ordering;
+* event lineage;
+* preserved scope.
+
+Succession does not mean the successor is the same lower-level runtime.
+
+---
+
+## 42. Revival
+
+Revival occurs when a terminated service or process is later recreated or restored.
+
+Possible statuses include:
+
+```text
+SERVICE REVIVED
+STATE LINEAGE RESTORED
+EXECUTION CONTINUITY BROKEN
+```
+
+Revival is distinct from uninterrupted persistence.
+
+---
+
+## 43. Complete Component Replacement
+
+A higher-level system may replace all components while preserving:
+
+* purpose;
+* interface;
+* authority;
+* history;
+* structure;
+* process;
+* lineage.
+
+This supports higher-level identity under structural, historical, functional, or institutional criteria.
+
+It does not preserve strict component or material identity.
+
+---
+
+## 44. Service Identity
+
+Service identity concerns a logical capability maintained through authorized succession.
+
+It may survive:
+
+* restart;
+* migration;
+* host replacement;
+* runtime replacement;
+* code revision;
+* address change;
+* failover.
+
+It may depend on:
+
+* function;
+* interface;
+* authority;
+* accepted lineage;
+* institutional recognition;
+* state continuity where required.
+
+Service identity is partly technical and partly institutional.
+
+---
+
+## 45. Runtime-Instance Identity
+
+Runtime-instance identity concerns one instantiated deployment.
+
+It may survive validated live migration.
+
+It normally ends through:
+
+* termination;
+* ordinary restart;
+* unbridged recreation;
+* cloning;
+* branching.
+
+---
+
+## 46. Execution Identity
+
+Execution identity concerns one continuous or formally bridged run.
+
+It may survive:
+
+* address changes;
+* host changes through validated migration;
+* pauses;
+* resource changes.
+
+It ends through:
+
+* termination;
+* restart;
+* cloning;
+* unbridged restoration;
+* branch creation.
+
+---
+
+## 47. State Identity and State Lineage
+
+A state version or snapshot possesses state identity.
+
+State lineage records derivation:
+
+```text
+S₁ → S₂ → S₃
+```
+
+A branch produces:
+
+```text
+S₃
+├── S₄A
+└── S₄B
+```
+
+A merge produces:
+
+```text
+S₄A
+     ↘
+      S₅M
+     ↗
+S₄B
+```
+
+State lineage may remain valid after execution identity changes.
+
+---
+
+## 48. Event Lineage
+
+Event lineage records identity-relevant transitions:
+
+```text
+START
+MIGRATE
+PAUSE
+RESUME
+CHECKPOINT
+RESTART
+RESTORE
+PROMOTE
+BRANCH
+MERGE
+TERMINATE
+REVIVE
+```
+
+A strong process-continuity claim should preserve event lineage.
+
+---
+
+## 49. Availability Continuity
+
+Availability continuity concerns whether a service remains reachable and usable.
+
+It is distinct from:
+
+* runtime continuity;
+* execution continuity;
+* state continuity.
+
+```text
+Availability Continuity
+        ≠
+Runtime Continuity
+```
+
+A cluster may preserve availability while replacing every process.
+
+---
+
+## 50. Authority Continuity
+
+Authority continuity concerns whether the recognized authority to represent or govern a service, role, target, or process remains preserved.
+
+A runtime may execute valid code without authority to represent the logical service.
+
+```text
+Executable Capability
+        ≠
+Authorized Identity
+```
+
+Authority continuity is a distinct governance layer.
+
+---
+
+## 51. Layered Continuity
+
+The model now recognizes at least:
+
+```text
+Material Continuity
+Spatial Continuity
+Temporal Continuity
+Causal Continuity
+Structural Continuity
+Functional Continuity
+Historical Continuity
+Institutional Continuity
+Service Continuity
+Runtime Continuity
+Execution Continuity
+State Continuity
+State-Lineage Continuity
+Availability Continuity
+Authority Continuity
+```
+
+A continuity claim must specify its layer.
+
+---
+
+## 52. Layered Continuity Matrix
+
+| Layer                     | May survive restart? | May survive migration? |    May survive cloning? |
+| ------------------------- | -------------------: | ---------------------: | ----------------------: |
+| Service identity          |                  Yes |                    Yes |     Possibly conflicted |
+| Runtime-instance identity |           Usually no |          Conditionally |                      No |
+| Execution identity        |                   No |          Conditionally |                      No |
+| State identity            |    Possibly restored |                    Yes |                  Copied |
+| State lineage             |                  Yes |                    Yes |                Branches |
+| Availability              |             Possibly |               Possibly |                Possibly |
+| Authority                 |   Yes if transferred |       Yes if preserved |             May collide |
+| Host identity             |                  Yes |                     No |                Separate |
+| Network identity          |             Possibly |               Possibly | Separate or conflicting |
+
+The matrix is provisional and platform-dependent.
+
+---
+
+## 53. Continuity and Binding Integrity
+
+Continuity and binding integrity remain separate.
+
+Example:
+
+```text
+SERVICE-A is correctly bound to Runtime B.
+```
+
+This may be true even if Runtime B is not continuous with Runtime A.
+
+Conversely, Runtime A may remain continuous while a stale registry points `SERVICE-A` to Runtime B.
 
 Therefore:
 
 ```text
-Operational Precedence
+Continuity
         ≠
-Evidentiary Resolution
-```
-
-Authority contributes evidentiary weight only when supported by reliable access, process, instrumentation, custody, or method.
-
----
-
-## 34. Reconciliation
-
-Reconciliation compares competing claims without deleting their history.
-
-A reconciliation artifact should preserve:
-
-* claims considered;
-* normalized fields;
-* evidence lineage;
-* selected interpretation;
-* confidence;
-* unresolved limitations;
-* operational effect;
-* supersession status;
-* future review conditions.
-
----
-
-## 35. Reconciliation Outcomes
-
-Possible outcomes include:
-
-```text
-RESOLVED FOR CLAIM A
-RESOLVED FOR CLAIM B
-DIFFERENT SCOPES
-DIFFERENT TARGET TYPES
-SEQUENTIAL REBINDING
-COLLISION CONFIRMED
-PARTIALLY RECONCILED
-CONTESTED
-INSUFFICIENT EVIDENCE
-UNKNOWN
-```
-
-Resolution status must not erase original records.
-
----
-
-## 36. Non-Destructive Correction
-
-Immutable or preserved systems should correct through additional records.
-
-```text
-Original Claim
-        │
-        ▼
-Correction Record
-        │
-        ▼
-Supersession Status
-        │
-        ▼
-Dependency Review
-```
-
-Correction should preserve:
-
-* original error;
-* reason for revision;
-* corrected claim;
-* affected downstream artifacts;
-* unresolved uncertainty.
-
----
-
-## 37. Correction Propagation
-
-Correction is incomplete when downstream consequences remain attached to an invalid binding.
-
-Affected artifacts may include:
-
-* authorization;
-* action records;
-* verification records;
-* audit conclusions;
-* institutional decisions;
-* models;
-* publications.
-
-A binding correction should trigger dependency inspection.
-
----
-
-## 38. Unknown Preservation
-
-Where binding or conflict remains unresolved, the model requires explicit preservation of:
-
-* candidate targets;
-* competing claims;
-* supporting records;
-* confidence;
-* limitations;
-* action restrictions;
-* next evidence requirements.
-
-```text
-Structured UNKNOWN
-        >
-Unsupported Resolution
+Binding Integrity
 ```
 
 ---
 
-## 39. Conflict Propagation Into Models
+## 54. Continuity and Identity
 
-A model using a contested claim should record:
+Identity and continuity remain separate.
 
-* dependency on the claim;
-* competing claim;
-* conflict status;
-* confidence;
-* branch consequences;
-* revision conditions.
-
-Possible representation:
+Identity answers:
 
 ```text
-If Claim A is correct:
-    Model consequence A
-
-If Claim B is correct:
-    Model consequence B
+What target or layer is being discussed?
 ```
+
+Continuity answers:
+
+```text
+How is that target connected across time or transition?
+```
+
+Identity may exist without continuity.
+
+Continuity evidence may connect states whose numerical identity remains disputed.
 
 ---
 
-## 40. Operational Precedence Versus Research Status
+## 55. Continuity and Lineage
 
-An institution may act using one controlling record while research preserves multiple claims.
+Continuity may support identity.
+
+Lineage may persist after unique identity branches.
 
 ```text
-Operational State
+Continuity Claim
         ≠
-Research Conclusion
+Lineage Claim
 ```
 
-This separation allows governance to proceed without falsifying evidentiary status.
+A clone retains lineage without being the same runtime instance.
 
 ---
 
-## 41. Consequence-Scaled Thresholds
+## 56. Continuity and Similarity
 
-Identity and binding requirements should increase with consequence.
+State similarity does not establish continuity.
+
+```text
+Perfect Similarity
+        ≠
+Same Identity
+```
+
+Two clones may begin in identical states and immediately diverge.
+
+---
+
+## 57. Continuity and Availability
+
+Availability is one continuity dimension.
+
+A system may preserve availability without preserving state or runtime continuity.
+
+A process may preserve execution while availability fails.
+
+These claims must remain separate.
+
+---
+
+## 58. Observer Gaps
+
+An observer gap weakens direct continuity evidence.
+
+Gap duration is not decisive.
+
+Gap strength depends on:
+
+* custody;
+* event logs;
+* transition evidence;
+* environmental constraints;
+* replacement possibility;
+* independent witnesses;
+* state continuity.
+
+A gap requires a continuity bridge.
+
+---
+
+## 59. Continuity Bridge
+
+A continuity bridge connects prior and current states.
+
+Candidate bridges include:
+
+* uninterrupted observation;
+* migration record;
+* state-transfer proof;
+* chain of custody;
+* event lineage;
+* causal trace;
+* authorized succession;
+* independently verified restoration.
+
+No single bridge is universally sufficient.
+
+---
+
+## 60. False Continuity
+
+False continuity occurs when stable labels, roles, addresses, or records conceal replacement or interruption.
+
+Examples:
+
+* reused PID;
+* reused service name;
+* restored snapshot presented as uninterrupted execution;
+* replacement occupant under stable role;
+* clone presented as original.
+
+---
+
+## 61. False Discontinuity
+
+False discontinuity occurs when changed identifiers or locations are treated as proof of identity loss despite a valid continuity bridge.
+
+Examples:
+
+* changed host after migration;
+* changed PID after formal process transfer;
+* changed credential after authorized rotation;
+* changed anchor after preserved succession.
+
+---
+
+## 62. Continuity Conflict
+
+Different criteria may produce different outcomes.
+
+Example:
+
+```text
+Material Continuity: FAILED
+Functional Continuity: PRESERVED
+Historical Continuity: PRESERVED
+Execution Continuity: TERMINATED
+Service Continuity: PRESERVED
+```
+
+The correct result is not one binary identity status.
+
+It is a layered continuity assessment.
+
+---
+
+## 63. Consequence-Scaled Continuity
+
+Continuity requirements rise with consequence.
 
 ```text
 Higher Consequence
-        │
-        ▼
-Higher Distinguishability Threshold
-        +
-Higher Identity Threshold
-        +
-Higher Binding-Integrity Threshold
+        ↓
+Stronger Continuity Evidence
 ```
 
-Low-consequence reversible action may proceed under uncertainty.
+Low-risk current-state operations may accept weak continuity.
 
-High-consequence irreversible action requires stronger evidence and continuity.
+High-risk historical, legal, financial, safety, or accountability claims require stronger and multi-layer continuity.
 
 ---
 
-## 42. Consequence Classes
+## 64. Consequence Classes
 
-A provisional consequence scale is:
+A provisional consequence scale remains:
 
 ```text
 LOW
@@ -1128,337 +1607,291 @@ HIGH
 IRREVERSIBLE
 ```
 
-Thresholds should rise when actions involve:
+Continuity thresholds should rise when claims involve:
 
-* legal consequence;
-* financial loss;
-* safety impact;
-* identity attribution;
-* permanent deletion;
-* irreversible intervention;
-* public publication;
-* institutional sanction.
-
----
-
-## 43. Action Under Conflict
-
-Possible postures include:
-
-```text
-HOLD
-OBSERVE
-CONTAIN
-REQUEST EVIDENCE
-ACT REVERSIBLY
-ACT ON ALL CANDIDATES
-ACT ON NO CANDIDATE
-APPLY CONTROLLING RECORD
-ESCALATE REVIEW
-```
-
-The selected action must not be presented as identity resolution unless evidence supports resolution.
+* ownership;
+* responsibility;
+* irreversible correction;
+* safety-critical action;
+* legal identity;
+* deletion;
+* public attribution;
+* long-term provenance.
 
 ---
 
-## 44. Decision Versus Conclusion
+## 65. Operation-Specific Threshold Matrix
 
-A decision may be justified under unresolved identity.
-
-```text
-Decision:
-Temporarily contain both candidate targets.
-```
-
-A conclusion may remain unavailable.
-
-```text
-Conclusion:
-The target was Member A.
-```
-
-Therefore:
-
-```text
-Decision Under Uncertainty
-        ≠
-Resolved Knowledge
-```
-
----
-
-## 45. Operation-Specific Threshold Matrix
-
-| Operation                       | Distinguishability        | Identity                           | Binding Integrity                   |
-| ------------------------------- | ------------------------- | ---------------------------------- | ----------------------------------- |
-| Count members                   | Multiplicity              | Token existence                    | Low                                 |
-| Recognize pattern               | Pattern-level             | Pattern identity                   | Low                                 |
-| Compare topology                | Relational                | Class or positional                | Low to moderate                     |
-| Select any class member         | Class distinction         | Operational identity               | Short-lived binding                 |
-| Correct selected member         | Unique target distinction | Operational or persistent identity | Strong binding through verification |
-| Attribute authorship            | Source distinction        | Persistent source identity         | Strong source binding               |
-| Assign responsibility           | Actor distinction         | Attributable identity              | Strong actor-action binding         |
-| Preserve history                | Temporal distinction      | Persistent identity                | Valid time-bounded binding          |
-| Resolve conflicting records     | Claim distinction         | Claim and conflict identity        | Normalized binding evidence         |
-| Publish member-specific finding | High                      | Persistent target identity         | Strong reviewed binding             |
-| Act irreversibly                | High                      | High                               | High                                |
+| Operation                           |           D |                             I |        B |                        C |
+| ----------------------------------- | ----------: | ----------------------------: | -------: | -----------------------: |
+| Count current instances             |    Moderate |                           Low |      Low |                      Low |
+| Inspect current health              |    Moderate |                Current target | Moderate |                      Low |
+| Route to any healthy replica        | Class-level |                   Operational | Moderate |                      Low |
+| Correct selected runtime            |        High |         Unique current target |     High |          Short-term high |
+| Verify same runtime after migration |        High |              Runtime identity |     High |                     High |
+| Verify state restoration            |    Moderate |                State identity |     High |             High lineage |
+| Attribute historical action         |        High |        Actor/process identity |     High |                     High |
+| Establish service availability      |    Moderate |              Service identity | Moderate |  Availability continuity |
+| Establish uninterrupted execution   |        High |            Execution identity |     High |                Very high |
+| Resolve split-brain                 |        High | Branch and authority identity |     High |             High lineage |
+| Publish historical continuity claim |        High |    Persistent target identity |     High | High reviewed continuity |
 
 The matrix remains provisional.
 
 ---
 
-## 46. Review Thresholds
+## 66. Review Requirements
 
-Review requires separable layers:
+A continuity-sensitive review should inspect:
 
 ```text
-Record
-Reference
-Claim
-Target
-Evidence
-Interpretation
-Conflict
-Decision
-Conclusion
+Identity Layer
+Prior State
+Current State
+Transition Type
+Transition Evidence
+Binding Integrity
+Event Lineage
+Branching
+Merging
+Interruption
+Authority
+Consequence
 ```
 
-Review should test:
+It should distinguish:
 
-* record integrity;
-* source authenticity;
-* target binding;
-* temporal scope;
-* evidence lineage;
-* conflict status;
-* correction history;
-* downstream dependency.
+* direct continuity;
+* restored lineage;
+* succession;
+* recreation;
+* branch;
+* merge;
+* unresolved transition.
 
 ---
 
-## 47. Governance Thresholds
+## 67. Governance Requirements
 
-Governance may operate at:
+Governance may preserve a high-level identity through authorized succession.
 
-### Class Level
+Examples include:
 
-Applies to all equivalent members.
+* new office-holder;
+* promoted replica;
+* replacement runtime;
+* successor institution.
 
-### Role Level
-
-Applies to a defined function.
-
-### Actor Level
-
-Applies consequence to an identifiable actor.
-
-Actor-level governance requires stronger identity and binding than role-level process visibility.
+Governance continuity does not prove component continuity.
 
 ```text
-Role Binding
+Authority Succession
         ≠
-Actor Binding
+Actor Persistence
 ```
 
 ---
 
-## 48. Accountability Threshold
+## 68. Accountability Requirements
 
-Accountability requires a preserved chain connecting:
+Accountability requires continuity linking:
 
 ```text
-Actor
+Actor or Process
 Authority
 Action
 Target
-Consequence
+Result
 Evidence
 Review
 ```
 
-A valid account or credential does not automatically prove the human actor.
+A service identity may remain stable while the accountable runtime or actor changes.
 
-```text
-Account Identity
-        ≠
-Human Identity
-```
+Therefore, accountability must bind at the correct layer.
 
 ---
 
-## 49. Preservation Thresholds
+## 69. Preservation Requirements
 
 Organized preservation may require:
 
 * record identity;
-* claim identity;
 * source identity;
 * version identity;
-* temporal order;
-* binding status;
+* event lineage;
+* state lineage;
+* continuity status;
+* transition history;
+* branch history;
+* merge history;
 * correction history;
-* conflict history;
-* dependency traceability.
+* binding status;
+* authority history.
 
-Content survival alone remains insufficient.
+Content alone remains insufficient.
 
 ---
 
-## 50. Failure Modes
+## 70. Failure Modes
 
-### 50.1 Distinguishability Collapse
+### 70.1 Distinguishability Collapse
 
 Relevant differences disappear.
 
-### 50.2 Identity Collapse
+### 70.2 Identity Collapse
 
-Distinct targets are treated as the same target.
+Distinct targets or layers are treated as one.
 
-### 50.3 Class-Member Collapse
+### 70.3 Binding Collapse
 
-Class identity is mistaken for unique identity.
+A reference becomes incorrectly associated with a target.
 
-### 50.4 Pattern-Component Collapse
+### 70.4 Continuity Collapse
 
-Pattern continuity is mistaken for component continuity.
+Temporal connection is lost or falsely assumed.
 
-### 50.5 Reference-Target Collapse
+### 70.5 Layer Collapse
 
-Reference identity is mistaken for target identity.
+Service, runtime, execution, state, and lineage identities are merged.
 
-### 50.6 Record-Truth Collapse
+### 70.6 Restart-as-Continuity Error
 
-Record preservation is mistaken for truth.
+A new execution is treated as uninterrupted continuation.
 
-### 50.7 Identifier Collision
+### 70.7 Migration-as-Recreation Error
 
-One reference binds to multiple targets.
+A validated migrated process is treated as unrelated.
 
-### 50.8 Duplicate Reference Fragmentation
+### 70.8 Restoration-as-Execution Error
 
-One target is represented by multiple unreconciled references.
+Restored state is mistaken for uninterrupted execution.
 
-### 50.9 Hidden Rebinding
+### 70.9 Clone-as-Original Error
 
-A reference changes target without visible history.
+A cloned runtime is treated as the original runtime.
 
-### 50.10 Expired Binding Reuse
+### 70.10 Branch Suppression
 
-A past binding is treated as currently valid.
+Multiple successor lineages are collapsed into one.
 
-### 50.11 Circular Verification
+### 70.11 Merge Suppression
 
-The same reference chain is mistaken for independent evidence.
+Multiple predecessor lineages are hidden.
 
-### 50.12 Inherited Binding Error
+### 70.12 Split-Brain Concealment
 
-A false association propagates through downstream operations.
+Multiple active authoritative runtimes are treated as one.
 
-### 50.13 Conflict Suppression
+### 70.13 Identifier-Reuse Error
 
-A competing authentic claim is removed or hidden.
+A reused PID, address, role, or label creates false continuity.
 
-### 50.14 Authority-Truth Collapse
+### 70.14 Availability-Continuity Collapse
 
-Operational precedence is mistaken for epistemic resolution.
+Availability is mistaken for runtime or state continuity.
 
-### 50.15 Uncertainty Loss
+### 70.15 Authority-Continuity Collapse
 
-Contested status disappears from models or publications.
+Stable authority role is mistaken for stable actor identity.
 
-### 50.16 Correction Non-Propagation
+### 70.16 Event-Lineage Loss
 
-A corrected binding fails to update dependent conclusions.
+Transitions cannot be reconstructed.
 
-### 50.17 Consequence-Threshold Failure
+### 70.17 False Revival
 
-Irreversible action proceeds with insufficient identity evidence.
+Name reuse is treated as restored identity without lineage.
+
+### 70.18 Continuity Overclaim
+
+A domain-specific continuity criterion is generalized universally.
 
 ---
 
-## 51. Revised Model Predictions
+## 71. Revised Model Predictions
 
 The model predicts:
 
-1. A stable reference can preserve false target continuity.
-2. Immutability strengthens preservation without guaranteeing correctness.
-3. Selection can create immediate targetability without persistent identity.
-4. Member-specific correction requires binding continuity through verification.
-5. Record identity can remain stable while target identity changes.
-6. Multiple matching records may contain one inherited error.
-7. Conflicting authentic records can preserve organized uncertainty.
-8. Authority can determine action without resolving truth.
-9. Conflict normalization will resolve some apparent contradictions.
-10. True collisions will degrade unique identity.
-11. Identifier reuse can be safe when temporal scope and rebinding are explicit.
-12. Uncertainty must propagate into models that depend on contested claims.
-13. Correction requires dependency traceability.
-14. Higher-consequence actions require stronger binding evidence.
-15. Binding integrity may be necessary for trustworthy attribution, continuity, and correction.
-16. Binding integrity may still be derivative rather than irreducible.
+1. A logical service can persist while every runtime component is replaced.
+2. Restart preserves service identity more readily than execution identity.
+3. Validated migration may preserve runtime identity despite host and PID changes.
+4. Snapshot restoration preserves state lineage without preserving uninterrupted execution.
+5. Clones remain distinct despite identical initial state.
+6. Split-brain creates identity and authority conflict.
+7. Branching preserves lineage while disrupting unique continuation.
+8. Merging creates a successor state with multiple lineages.
+9. Stable labels can conceal broken continuity.
+10. Changed identifiers can conceal preserved continuity.
+11. Availability continuity can survive runtime discontinuity.
+12. Authority continuity can survive actor replacement.
+13. Continuity thresholds vary by operation and consequence.
+14. Layer-specific continuity status is more accurate than a binary same/different field.
+15. Continuity is necessary for many temporal claims but may remain derivative rather than irreducible.
 
-These predictions require testing.
-
----
-
-## 52. Revised Removal-Test Matrix
-
-| Test | Preserved             | Weakened or Removed | Primary Question                                 |
-| ---- | --------------------- | ------------------- | ------------------------------------------------ |
-| A    | Record immutability   | Target correctness  | Does preservation prove truth?                   |
-| B    | Reference continuity  | Target continuity   | Can stable identifiers conceal replacement?      |
-| C    | Selection             | Persistent identity | Is temporary targeting sufficient?               |
-| D    | Authenticity          | Claim compatibility | Can authentic records conflict?                  |
-| E    | Authority             | Evidence strength   | Can governance resolve truth?                    |
-| F    | Multiple records      | Independent lineage | Does repetition strengthen evidence?             |
-| G    | Correction record     | Propagation         | Does correction reach dependent claims?          |
-| H    | Namespace             | Global uniqueness   | Are local bindings mistaken for global identity? |
-| I    | Temporal scope        | Permanent reference | When is identifier reuse safe?                   |
-| J    | Class identity        | Member identity     | Which operations remain valid?                   |
-| K    | Reversible action     | Resolved identity   | Can action proceed under uncertainty?            |
-| L    | Conflict preservation | Forced consensus    | Can unknown remain organized?                    |
+These predictions require further testing.
 
 ---
 
-## 53. Evidence Base
+## 72. Revised Removal-Test Matrix
 
-Version 0.3 is supported by:
-
-* seven research observations;
-* seven completed research reviews;
-* selection and symmetry tests;
-* pattern and class identity analysis;
-* immutable-record analysis;
-* false-continuity analysis;
-* rebinding and collision examples;
-* conflicting-record analysis;
-* authority and evidence-precedence distinctions;
-* correction and uncertainty propagation analysis.
-
-The evidence remains primarily conceptual.
+| Test | Preserved           | Weakened or Removed     | Primary Question                                     |
+| ---- | ------------------- | ----------------------- | ---------------------------------------------------- |
+| A    | Service name        | Deployment lineage      | Does naming preserve service identity?               |
+| B    | State snapshot      | Execution continuity    | Does restoration preserve the process?               |
+| C    | Host and PID        | Migration bridge        | Can changed identifiers preserve runtime identity?   |
+| D    | Availability        | Runtime continuity      | Can users observe continuity while processes change? |
+| E    | Runtime continuity  | Availability            | Can execution persist while reachability fails?      |
+| F    | Shared prior state  | Unique runtime identity | Do clones become the same process?                   |
+| G    | Branch lineage      | Unique continuation     | What remains after cloning or split-brain?           |
+| H    | Merge result        | Single predecessor      | How should merged identity be represented?           |
+| I    | Authority role      | Actor identity          | Does role continuity preserve accountability?        |
+| J    | Event history       | Stable label            | Can continuity be reconstructed without labels?      |
+| K    | External anchor     | Internal continuity     | Can self-anchored process history suffice?           |
+| L    | Continuity evidence | Current correct binding | Does current identity imply historical persistence?  |
 
 ---
 
-## 54. Evidence Limitations
+## 73. Evidence Base
+
+Version 0.4 is supported by:
+
+* ten research observations;
+* ten completed research reviews;
+* symmetry and distinguishability tests;
+* identity weakening;
+* pattern continuity;
+* operational selection;
+* false immutable continuity;
+* conflicting identity claims;
+* anchor regress;
+* continuous transformation;
+* software migration, restart, restoration, cloning, failover, and split-brain cases.
+
+The evidence remains primarily conceptual and operationally modeled rather than experimentally executed.
+
+---
+
+## 74. Evidence Limitations
 
 The model has not yet been validated through:
 
-* executable binding tests;
-* database identity-collision experiments;
-* distributed-system trace analysis;
-* legal chain-of-custody cases;
-* institutional record disputes;
-* controlled selection and rebinding studies;
-* formal logic;
-* graph-theoretic proof;
+* executable process-migration experiments;
+* controlled restart traces;
+* snapshot restoration harnesses;
+* cross-platform comparison;
+* distributed-system fault injection;
+* database collision testing;
+* formal proof;
 * independent replication;
-* adversarial testing.
+* empirical institutional continuity cases;
+* adversarial continuity attacks.
 
-The model must not be generalized beyond its evidence.
+The model must remain evidence-bounded.
 
 ---
 
-## 55. Irreducibility Status
+## 75. Irreducibility Status
 
 Current assessment:
 
@@ -1466,58 +1899,62 @@ Current assessment:
 Distinguishability: PLAUSIBLE CANDIDATE
 Identity: PLAUSIBLE CANDIDATE
 Binding Integrity: PLAUSIBLE CANDIDATE
+Continuity: PLAUSIBLE CANDIDATE
 Relationship: PLAUSIBLE CANDIDATE
 Pattern Identity: PROVISIONALLY SUPPORTED
-Class Identity: SUPPORTED
-Conflict Identity: SUPPORTED
 Operational Identity: SUPPORTED
-Persistent Identity: OPERATION-DEPENDENT
+Conflict Identity: SUPPORTED
+Process Identity: PROVISIONALLY SUPPORTED
+Service Identity: SUPPORTED AS DISTINCT LAYER
+State Lineage: SUPPORTED
 Universal Dependency Direction: UNKNOWN
 Irreducibility: NOT ESTABLISHED
 ```
 
 ---
 
-## 56. Candidate Dependency Structures
+## 76. Candidate Dependency Structures
 
-Several dependency structures remain possible.
-
-### Model A — Identity Before Binding
+### Structure A — Identity Before Continuity
 
 ```text
 Identity
     ↓
-Reference
+Tracked Across Time
     ↓
-Binding
+Continuity
 ```
 
-### Model B — Binding Produces Operational Identity
+### Structure B — Continuity Supports Identity
+
+```text
+Transition Evidence
+        ↓
+Reidentification
+        ↓
+Persistent Identity
+```
+
+### Structure C — Binding Before Continuity
 
 ```text
 Reference-Target Binding
         ↓
-Operational Identity
+Transition Tracking
+        ↓
+Continuity Claim
 ```
 
-### Model C — Distinction Before Identity
-
-```text
-Detectable Difference
-        ↓
-Identity
-        ↓
-Binding
-```
-
-### Model D — Relational Co-Emergence
+### Structure D — Co-Emergent Model
 
 ```text
 Distinguishability
         ⇄
 Identity
         ⇄
-Binding
+Binding Integrity
+        ⇄
+Continuity
         ⇄
 Relationship
 ```
@@ -1526,56 +1963,59 @@ No universal ordering is established.
 
 ---
 
-## 57. Next Required Research
+## 77. Next Required Research
 
-The next observation should test the strength of binding anchors.
+The next observation should test the four-threshold model using an explicit executable artifact or structured simulation.
 
 Recommended question:
 
-> Does a persistent external anchor resolve target identity, or does it relocate the identity problem to the anchor?
+> Can a minimal process-lineage simulator distinguish restart, migration, restoration, cloning, branching, and merge outcomes using explicit identity and continuity statuses?
 
 Suggested artifact:
 
 ```text
-ROB-000008
-External Anchors and Identity Regress
+ROB-000011
+Executable Process Lineage and Continuity Classification
 ```
 
-This observation should test:
+The test should represent:
 
-* anchor identity;
-* anchor continuity;
-* anchor compromise;
-* chained anchors;
-* external registry dependence;
-* termination of identity regress;
-* primitive or accepted identity conditions.
+* service identifier;
+* runtime identifier;
+* execution identifier;
+* state identifier;
+* event type;
+* parent lineage;
+* authority role;
+* continuity status;
+* binding status;
+* expected classification.
 
-A later observation should implement an executable binding-integrity test.
+A later implementation may produce a research artifact or prototype rather than another purely conceptual observation.
 
 ---
 
-## 58. Revision Conditions
+## 78. Revision Conditions
 
 RM-000001 should be revised again when evidence demonstrates that:
 
-* binding integrity can be reduced entirely to identity;
-* identity can be reduced entirely to binding;
-* an external anchor terminates identity regress;
-* conflicting records can be formally reconciled;
+* continuity can be reduced fully to identity;
+* continuity can be reduced fully to binding integrity;
+* process identity can be formally classified;
+* executable lineage tests confirm or reject the status vocabulary;
+* branching and merging rules can be formalized;
+* service identity can be reduced to authority and lineage;
 * consequence thresholds can be measured;
-* operational identity reliably supports accountability;
-* immutable systems can prove target continuity under defined conditions;
-* executable tests invalidate the current model;
-* new candidate structures become necessary.
+* cross-domain testing exposes missing structures;
+* the four-threshold model produces invalid classifications.
 
-All revisions must preserve prior history.
+All future revisions must preserve prior history.
 
 ---
 
-## 59. Model Conclusion
+## 79. Model Conclusion
 
-Version 0.3 proposes that organized understanding depends on three related requirements:
+Version 0.4 proposes that organized understanding depends on four related requirements:
 
 ```text
 Sufficient Distinguishability
@@ -1583,43 +2023,60 @@ Sufficient Distinguishability
 Sufficient Identity
         +
 Sufficient Binding Integrity
+        +
+Sufficient Continuity
 ```
 
 The amount and form required vary by:
 
 ```text
 Operation
-Level
+Identity Layer
 Scale
 Context
 Time
+Domain
 Consequence
 ```
 
-A system may preserve records without preserving truth.
+A system may preserve a service while replacing every runtime.
 
-It may preserve references without preserving targets.
+It may preserve state lineage while breaking execution continuity.
 
-It may preserve operational identity without preserving historical identity.
+It may preserve availability while losing recent state.
 
-It may preserve authentic conflicting claims without resolving target identity.
+It may preserve authority while replacing the actor.
 
-Binding integrity therefore becomes essential wherever organized understanding depends on attribution, continuity, correction, verification, accountability, or publication.
+It may preserve lineage while unique identity branches or merges.
+
+Continuity therefore becomes essential wherever organized understanding depends on:
+
+* persistence;
+* recurrence;
+* history;
+* attribution;
+* restoration;
+* succession;
+* migration;
+* accountability;
+* correction;
+* temporal explanation.
 
 The current research posture remains:
 
 ```text
 MODEL PROVISIONALLY
-SEPARATE RECORD FROM TARGET
-SEPARATE REFERENCE FROM IDENTITY
-PRESERVE BINDING SEMANTICS
-PRESERVE CONFLICT
-PROPAGATE UNCERTAINTY
-SCALE EVIDENCE TO CONSEQUENCE
-TEST IDENTITY ANCHORS
+DECLARE IDENTITY LAYER
+DECLARE CONTINUITY CRITERION
+SEPARATE SERVICE FROM RUNTIME
+SEPARATE EXECUTION FROM STATE LINEAGE
+PRESERVE BRANCHING AND MERGING
+PRESERVE EVENT LINEAGE
+SCALE CONTINUITY TO CONSEQUENCE
+TEST THE MODEL EXECUTABLY
 UNKNOWN → HOLD
 ```
 
 ---
 
-End of RM-000001 Version 0.3
+End of RM-000001 Version 0.4

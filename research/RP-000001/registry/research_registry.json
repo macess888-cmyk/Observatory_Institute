@@ -174,15 +174,14 @@
 "models": [
 {
 "id": "RM-000001",
-"title": "Minimum Distinguishability, Identity, and Binding Integrity Model",
+"title": "Minimum Distinguishability, Identity, Binding Integrity, and Continuity Model",
 "status": "Provisional — Revised",
 "assessment": "CONDITIONALLY SUPPORTED",
 "irreducibility_status": "NOT ESTABLISHED",
 "dependency_direction": "UNKNOWN",
-"revision_status": "WARRANTED",
-"current_version": "0.3",
-"next_version": "0.4",
-"previous_version": "0.2",
+"revision_status": "COMPLETED",
+"version": "0.4",
+"previous_version": "0.3",
 "revision_history": [
 {
 "version": "0.1",
@@ -197,18 +196,15 @@
 {
 "version": "0.3",
 "title": "Minimum Distinguishability, Identity, and Binding Integrity Model",
+"status": "SUPERSEDED"
+},
+{
+"version": "0.4",
+"title": "Minimum Distinguishability, Identity, Binding Integrity, and Continuity Model",
 "status": "CURRENT"
 }
 ],
 "revision_basis": [
-"ROB-000005",
-"ROB-000006",
-"ROB-000007",
-"RR-000005",
-"RR-000006",
-"RR-000007"
-],
-"next_revision_basis": [
 "ROB-000008",
 "ROB-000009",
 "ROB-000010",
@@ -241,7 +237,7 @@
 "RR-000009",
 "RR-000010"
 ],
-"next_artifact": "RM-000001 Version 0.4"
+"next_observation_id": "ROB-000011"
 }
 ],
 "reviews": [
