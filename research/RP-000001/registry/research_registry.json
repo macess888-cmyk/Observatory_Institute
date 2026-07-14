@@ -187,9 +187,10 @@
 "RR-000004",
 "RR-000005",
 "RR-000006",
-"RR-000007"
+"RR-000007",
+"RR-000008"
 ],
-"next_review_id": "RR-000008"
+"next_observation_id": "ROB-000009"
 }
 ],
 "reviews": [
@@ -315,6 +316,27 @@
 "version": "0.1",
 "question_id": "RQ-000001",
 "observation_id": "ROB-000007",
+"model_id": "RM-000001"
+},
+{
+"id": "RR-000008",
+"title": "Research Review of External Anchors and Identity Regress",
+"status": "Completed",
+"assessment": "PARTIALLY SUPPORTED",
+"local_identity_resolution": "SUPPORTED",
+"foundational_identity_resolution": "NOT ESTABLISHED",
+"anchor_dependency": "SUPPORTED",
+"anchor_regress": "CONDITIONALLY SUPPORTED",
+"operational_termination": "SUPPORTED WHEN CONSEQUENCE-APPROPRIATE",
+"embodied_continuity": "PLAUSIBLE TERMINATION CONDITION",
+"causal_continuity": "PLAUSIBLE TERMINATION CONDITION",
+"institutional_authority": "VALID OPERATIONAL ENDPOINT",
+"anchor_independence": "REQUIRED FOR STRONG CONVERGENCE CLAIMS",
+"model_impact": "RETAIN AND CONTINUE TESTING",
+"irreducibility_status": "UNKNOWN",
+"version": "0.1",
+"question_id": "RQ-000001",
+"observation_id": "ROB-000008",
 "model_id": "RM-000001"
 }
 ],
