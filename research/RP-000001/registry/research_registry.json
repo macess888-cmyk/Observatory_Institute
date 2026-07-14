@@ -207,9 +207,10 @@
 "RR-000005",
 "RR-000006",
 "RR-000007",
-"RR-000008"
+"RR-000008",
+"RR-000009"
 ],
-"next_review_id": "RR-000009"
+"next_observation_id": "ROB-000010"
 }
 ],
 "reviews": [
@@ -356,6 +357,28 @@
 "version": "0.1",
 "question_id": "RQ-000001",
 "observation_id": "ROB-000008",
+"model_id": "RM-000001"
+},
+{
+"id": "RR-000009",
+"title": "Research Review of Identity Through Continuous Transformation",
+"status": "Completed",
+"assessment": "PARTIALLY SUPPORTED",
+"identity_without_persistent_labels": "CONDITIONALLY SUPPORTED",
+"continuity_based_reidentification": "SUPPORTED",
+"continuity_as_identity_creation": "NOT ESTABLISHED",
+"embodied_continuity": "PLAUSIBLE",
+"causal_continuity": "PLAUSIBLE",
+"complete_component_replacement": "CRITERION-DEPENDENT",
+"branching": "UNIQUE IDENTITY UNRESOLVED",
+"merging": "MULTIPLE LINEAGE SUPPORTED",
+"process_identity": "PROVISIONALLY SUPPORTED",
+"continuity_threshold": "WARRANTED",
+"model_impact": "RETAIN — REVISION PRESSURE MATERIAL",
+"irreducibility_status": "UNKNOWN",
+"version": "0.1",
+"question_id": "RQ-000001",
+"observation_id": "ROB-000009",
 "model_id": "RM-000001"
 }
 ],
