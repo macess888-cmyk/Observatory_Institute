@@ -134,9 +134,10 @@
 "RR-000002",
 "RR-000003",
 "RR-000004",
-"RR-000005"
+"RR-000005",
+"RR-000006"
 ],
-"next_review_id": "RR-000006"
+"next_observation_id": "ROB-000007"
 }
 ],
 "reviews": [
@@ -222,6 +223,26 @@
 "version": "0.1",
 "question_id": "RQ-000001",
 "observation_id": "ROB-000005",
+"model_id": "RM-000001"
+},
+{
+"id": "RR-000006",
+"title": "Research Review of Immutable Records and False Target Continuity",
+"status": "Completed",
+"assessment": "PARTIALLY SUPPORTED",
+"record_preservation": "SUPPORTED",
+"target_correctness": "NOT ESTABLISHED BY IMMUTABILITY",
+"false_continuity_risk": "SUPPORTED",
+"temporal_binding_scope": "REQUIRED",
+"rebinding_visibility": "REQUIRED",
+"independent_verification": "CLAIM-DEPENDENT",
+"correction_traceability": "REQUIRED",
+"binding_integrity_status": "PROVISIONALLY SUPPORTED",
+"model_impact": "RETAIN — REVISION PRESSURE MATERIAL",
+"irreducibility_status": "UNKNOWN",
+"version": "0.1",
+"question_id": "RQ-000001",
+"observation_id": "ROB-000006",
 "model_id": "RM-000001"
 }
 ],
