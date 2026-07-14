@@ -1,0 +1,12 @@
+{
+  "observations": [
+    {
+      "id": "OI-OBS-000001",
+      "title": "Contributor Orientation Observation",
+      "classification": "Operational Observation",
+      "status": "Observed",
+      "assessment": "PARTIAL",
+      "version": "0.1"
+    }
+  ]
+}
