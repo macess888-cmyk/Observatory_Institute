@@ -49,6 +49,21 @@
 "version": "0.1",
 "question_id": "RQ-000001",
 "model_id": "RM-000001"
+},
+{
+"id": "ROB-000004",
+"title": "Symmetric Positions Without Persistent Labels",
+"status": "Observed",
+"assessment": "PLAUSIBLE",
+"multiplicity": "PRESERVED",
+"pattern_identity": "PRESERVED",
+"unique_positional_identity": "NOT PROVIDED BY RELATION ALONE",
+"relationship_first_hypothesis": "CONSTRAINED",
+"symmetry_breaking_requirement": "PROVISIONALLY SUPPORTED",
+"irreducibility_status": "UNKNOWN",
+"version": "0.1",
+"question_id": "RQ-000001",
+"model_id": "RM-000001"
 }
 ],
 "models": [
@@ -64,7 +79,8 @@
 "observation_ids": [
 "ROB-000001",
 "ROB-000002",
-"ROB-000003"
+"ROB-000003",
+"ROB-000004"
 ],
 "review_ids": [
 "RR-000001",
