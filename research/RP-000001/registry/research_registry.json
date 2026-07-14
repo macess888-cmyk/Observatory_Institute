@@ -131,6 +131,24 @@
 "version": "0.1",
 "question_id": "RQ-000001",
 "model_id": "RM-000001"
+},
+{
+"id": "ROB-000009",
+"title": "Identity Through Continuous Transformation",
+"status": "Observed",
+"assessment": "PLAUSIBLE",
+"identity_without_persistent_labels": "CONDITIONALLY SUPPORTED",
+"embodied_continuity": "PLAUSIBLE",
+"causal_continuity": "PLAUSIBLE",
+"complete_component_replacement": "CRITERION-DEPENDENT",
+"branching": "IDENTITY UNRESOLVED",
+"merging": "IDENTITY UNRESOLVED",
+"observer_gaps": "REQUIRE CONTINUITY EVIDENCE",
+"lineage_versus_identity": "DISTINCT",
+"irreducibility_status": "UNKNOWN",
+"version": "0.1",
+"question_id": "RQ-000001",
+"model_id": "RM-000001"
 }
 ],
 "models": [
@@ -178,7 +196,8 @@
 "ROB-000005",
 "ROB-000006",
 "ROB-000007",
-"ROB-000008"
+"ROB-000008",
+"ROB-000009"
 ],
 "review_ids": [
 "RR-000001",
@@ -190,7 +209,7 @@
 "RR-000007",
 "RR-000008"
 ],
-"next_observation_id": "ROB-000009"
+"next_review_id": "RR-000009"
 }
 ],
 "reviews": [
