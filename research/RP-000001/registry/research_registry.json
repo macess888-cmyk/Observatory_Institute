@@ -23,6 +23,18 @@
 "irreducibility_status": "UNKNOWN",
 "version": "0.1",
 "question_id": "RQ-000001"
+},
+{
+"id": "ROB-000002",
+"title": "Relational Position Under Weakened Identity",
+"status": "Observed",
+"assessment": "PLAUSIBLE",
+"identity_requirement": "OPERATION-DEPENDENT",
+"relationship_first_hypothesis": "PARTIALLY SUPPORTED",
+"identity_irreducibility": "UNKNOWN",
+"version": "0.1",
+"question_id": "RQ-000001",
+"model_id": "RM-000001"
 }
 ],
 "models": [
@@ -36,7 +48,8 @@
 "version": "0.1",
 "question_id": "RQ-000001",
 "observation_ids": [
-"ROB-000001"
+"ROB-000001",
+"ROB-000002"
 ],
 "review_ids": [
 "RR-000001"
