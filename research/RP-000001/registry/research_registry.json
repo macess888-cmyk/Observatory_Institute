@@ -35,6 +35,20 @@
 "version": "0.1",
 "question_id": "RQ-000001",
 "model_id": "RM-000001"
+},
+{
+"id": "ROB-000003",
+"title": "Pattern Distinguishability Without Component Identity",
+"status": "Observed",
+"assessment": "PLAUSIBLE",
+"component_identity_requirement": "NOT REQUIRED FOR ALL GLOBAL OPERATIONS",
+"pattern_identity_status": "PROVISIONAL",
+"global_understanding": "PARTIALLY PRESERVED",
+"local_understanding": "DEGRADED",
+"irreducibility_status": "UNKNOWN",
+"version": "0.1",
+"question_id": "RQ-000001",
+"model_id": "RM-000001"
 }
 ],
 "models": [
@@ -49,7 +63,8 @@
 "question_id": "RQ-000001",
 "observation_ids": [
 "ROB-000001",
-"ROB-000002"
+"ROB-000002",
+"ROB-000003"
 ],
 "review_ids": [
 "RR-000001",
