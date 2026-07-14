@@ -124,8 +124,9 @@
 "assessment": "CONDITIONALLY SUPPORTED",
 "irreducibility_status": "NOT ESTABLISHED",
 "dependency_direction": "UNKNOWN",
-"revision_status": "COMPLETED",
-"version": "0.2",
+"revision_status": "WARRANTED",
+"current_version": "0.2",
+"next_version": "0.3",
 "previous_version": "0.1",
 "revision_basis": [
 "ROB-000001",
@@ -136,6 +137,14 @@
 "RR-000002",
 "RR-000003",
 "RR-000004"
+],
+"next_revision_basis": [
+"ROB-000005",
+"ROB-000006",
+"ROB-000007",
+"RR-000005",
+"RR-000006",
+"RR-000007"
 ],
 "question_id": "RQ-000001",
 "observation_ids": [
@@ -153,9 +162,10 @@
 "RR-000003",
 "RR-000004",
 "RR-000005",
-"RR-000006"
+"RR-000006",
+"RR-000007"
 ],
-"next_review_id": "RR-000007"
+"next_artifact": "RM-000001 Version 0.3"
 }
 ],
 "reviews": [
@@ -261,6 +271,26 @@
 "version": "0.1",
 "question_id": "RQ-000001",
 "observation_id": "ROB-000006",
+"model_id": "RM-000001"
+},
+{
+"id": "RR-000007",
+"title": "Research Review of Conflicting Immutable Identity Claims",
+"status": "Completed",
+"assessment": "PARTIALLY SUPPORTED",
+"conflict_identity": "SUPPORTED",
+"target_identity": "UNRESOLVED UNTIL RECONCILED",
+"normalization": "REQUIRED",
+"evidence_lineage": "REQUIRED",
+"authority_as_operational_resolver": "CONDITIONALLY SUPPORTED",
+"authority_as_truth_resolver": "NOT SUPPORTED",
+"unknown_preservation": "REQUIRED",
+"irreversible_action": "RESTRICTED BY CONSEQUENCE-SCALED THRESHOLD",
+"model_impact": "REVISION WARRANTED",
+"irreducibility_status": "UNKNOWN",
+"version": "0.1",
+"question_id": "RQ-000001",
+"observation_id": "ROB-000007",
 "model_id": "RM-000001"
 }
 ],
