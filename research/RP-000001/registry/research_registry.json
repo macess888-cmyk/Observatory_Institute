@@ -25,7 +25,24 @@
 "question_id": "RQ-000001"
 }
 ],
-"models": [],
+"models": [
+{
+"id": "RM-000001",
+"title": "Minimum Distinguishability Model",
+"status": "Provisional",
+"assessment": "CONDITIONALLY SUPPORTED",
+"irreducibility_status": "NOT ESTABLISHED",
+"dependency_direction": "UNKNOWN",
+"version": "0.1",
+"question_id": "RQ-000001",
+"observation_ids": [
+"ROB-000001"
+],
+"review_ids": [
+"RR-000001"
+]
+}
+],
 "reviews": [
 {
 "id": "RR-000001",
