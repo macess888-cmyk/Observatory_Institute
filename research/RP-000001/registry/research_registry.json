@@ -69,13 +69,24 @@
 "models": [
 {
 "id": "RM-000001",
-"title": "Minimum Distinguishability Model",
-"status": "Provisional",
+"title": "Minimum Distinguishability and Identity Threshold Model",
+"status": "Provisional — Revised",
 "assessment": "CONDITIONALLY SUPPORTED",
 "irreducibility_status": "NOT ESTABLISHED",
 "dependency_direction": "UNKNOWN",
-"revision_status": "WARRANTED",
-"version": "0.1",
+"revision_status": "COMPLETED",
+"version": "0.2",
+"previous_version": "0.1",
+"revision_basis": [
+"ROB-000001",
+"ROB-000002",
+"ROB-000003",
+"ROB-000004",
+"RR-000001",
+"RR-000002",
+"RR-000003",
+"RR-000004"
+],
 "question_id": "RQ-000001",
 "observation_ids": [
 "ROB-000001",
@@ -88,7 +99,8 @@
 "RR-000002",
 "RR-000003",
 "RR-000004"
-]
+],
+"next_observation_id": "ROB-000005"
 }
 ],
 "reviews": [
