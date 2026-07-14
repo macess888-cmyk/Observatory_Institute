@@ -254,9 +254,11 @@
         "RR-000007",
         "RR-000008",
         "RR-000009",
-        "RR-000010"
+        "RR-000010",
+        "RR-000011"
       ],
-      "next_review_id": "RR-000011"
+      "next_artifact_id": "RA-000001",
+      "next_artifact_path": "research/RP-000001/artifacts/process_lineage_classifier/RA-000001_PROCESS_LINEAGE_CLASSIFIER_PROTOTYPE_SPECIFICATION.md"
     }
   ],
   "reviews": [
@@ -448,6 +450,31 @@
       "version": "0.1",
       "question_id": "RQ-000001",
       "observation_id": "ROB-000010",
+      "model_id": "RM-000001"
+    },
+    {
+      "id": "RR-000011",
+      "title": "Research Review of Executable Process Lineage and Continuity Classification",
+      "status": "Completed",
+      "assessment": "PARTIALLY SUPPORTED",
+      "structured_classification": "SUPPORTED",
+      "executable_implementation": "NOT YET PRESENT",
+      "identity_layer_separation": "SUPPORTED",
+      "event_vocabulary": "SUFFICIENT FOR VERSION 0.1",
+      "status_enum_separation": "REQUIRED",
+      "binding_separation": "SUPPORTED",
+      "branch_and_merge_representation": "SUPPORTED",
+      "split_brain_classification": "SUPPORTED",
+      "unknown_preservation": "REQUIRED",
+      "operational_hold": "REQUIRED WHEN EVIDENCE IS INSUFFICIENT",
+      "graph_structure": "DIRECTED ACYCLIC FOR DERIVATION",
+      "test_first_implementation": "REQUIRED",
+      "prototype_readiness": "CONDITIONALLY READY",
+      "model_impact": "RETAIN VERSION 0.4",
+      "irreducibility_status": "UNKNOWN",
+      "version": "0.1",
+      "question_id": "RQ-000001",
+      "observation_id": "ROB-000011",
       "model_id": "RM-000001"
     }
   ],
