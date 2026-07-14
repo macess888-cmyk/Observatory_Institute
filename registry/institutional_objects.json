@@ -48,6 +48,13 @@
       "classification": "Institutional Architecture",
       "status": "Draft",
       "version": "0.1"
+    },
+    {
+      "id": "OI-STD-000001",
+      "title": "Institutional Artifact Lifecycle Standard",
+      "classification": "Institutional Standard",
+      "status": "Draft",
+      "version": "0.1"
     }
   ]
 }
