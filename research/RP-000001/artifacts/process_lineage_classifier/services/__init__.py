@@ -10,6 +10,10 @@ from .clone_classifier import (
     CloneClassificationError,
     CloneClassifier,
 )
+from .failover_classifier import (
+    FailoverClassificationError,
+    FailoverClassifier,
+)
 from .lineage_graph_validator import (
     InvalidLineageError,
     LineageCycleError,
@@ -37,6 +41,10 @@ from .transition_validator import (
     MissingParentError,
     TransitionValidator,
 )
+from .authority_transfer_classifier import (
+    AuthorityTransferClassificationError,
+    AuthorityTransferClassifier,
+)
 
 __all__ = [
     "AddressChangeClassificationError",
@@ -46,6 +54,8 @@ __all__ = [
     "CloneClassificationError",
     "CloneClassifier",
     "DuplicateEventError",
+    "FailoverClassificationError",
+    "FailoverClassifier",
     "InvalidEventError",
     "InvalidLineageError",
     "LineageCycleError",
@@ -60,4 +70,6 @@ __all__ = [
     "RestoreClassificationError",
     "RestoreClassifier",
     "TransitionValidator",
+    "AuthorityTransferClassificationError",
+    "AuthorityTransferClassifier",
 ]
