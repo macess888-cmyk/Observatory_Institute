@@ -1,0 +1,21 @@
+{
+  "program": {
+    "id": "RP-000001",
+    "title": "Organized Understanding",
+    "status": "Active",
+    "version": "0.1"
+  },
+  "questions": [
+    {
+      "id": "RQ-000001",
+      "title": "Irreducible Structures of Organized Understanding",
+      "status": "Open",
+      "assessment": "UNKNOWN",
+      "version": "0.1"
+    }
+  ],
+  "observations": [],
+  "models": [],
+  "reviews": [],
+  "publications": []
+}
