@@ -149,6 +149,26 @@
 "version": "0.1",
 "question_id": "RQ-000001",
 "model_id": "RM-000001"
+},
+{
+"id": "ROB-000010",
+"title": "Process Identity Across Migration and Restart",
+"status": "Observed",
+"assessment": "PLAUSIBLE",
+"service_identity_across_restart": "SUPPORTED",
+"runtime_identity_across_restart": "NOT PRESERVED UNDER STRICT CRITERION",
+"runtime_identity_across_validated_live_migration": "CONDITIONALLY SUPPORTED",
+"execution_continuity_across_restart": "NOT PRESERVED",
+"state_lineage_across_restore": "SUPPORTED WHEN VERIFIED",
+"clone_identity": "DISTINCT",
+"branching": "SUPPORTED",
+"merging": "MULTIPLE LINEAGES",
+"identifier_reuse_risk": "SUPPORTED",
+"continuity_threshold": "OPERATIONALLY SUPPORTED",
+"irreducibility_status": "UNKNOWN",
+"version": "0.1",
+"question_id": "RQ-000001",
+"model_id": "RM-000001"
 }
 ],
 "models": [
@@ -197,7 +217,8 @@
 "ROB-000006",
 "ROB-000007",
 "ROB-000008",
-"ROB-000009"
+"ROB-000009",
+"ROB-000010"
 ],
 "review_ids": [
 "RR-000001",
@@ -210,7 +231,7 @@
 "RR-000008",
 "RR-000009"
 ],
-"next_observation_id": "ROB-000010"
+"next_review_id": "RR-000010"
 }
 ],
 "reviews": [
