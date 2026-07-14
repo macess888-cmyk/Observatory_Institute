@@ -97,6 +97,23 @@
 "version": "0.1",
 "question_id": "RQ-000001",
 "model_id": "RM-000001"
+},
+{
+"id": "ROB-000007",
+"title": "Conflicting Immutable Identity Claims",
+"status": "Observed",
+"assessment": "PLAUSIBLE",
+"record_authenticity": "COMPATIBLE WITH CONFLICT",
+"target_identity": "UNRESOLVED",
+"conflict_identity": "SUPPORTED",
+"authority_as_truth_resolver": "NOT SUPPORTED",
+"evidence_reconciliation": "REQUIRED",
+"unknown_preservation": "REQUIRED",
+"irreversible_action_under_conflict": "RESTRICTED",
+"irreducibility_status": "UNKNOWN",
+"version": "0.1",
+"question_id": "RQ-000001",
+"model_id": "RM-000001"
 }
 ],
 "models": [
@@ -127,7 +144,8 @@
 "ROB-000003",
 "ROB-000004",
 "ROB-000005",
-"ROB-000006"
+"ROB-000006",
+"ROB-000007"
 ],
 "review_ids": [
 "RR-000001",
@@ -137,7 +155,7 @@
 "RR-000005",
 "RR-000006"
 ],
-"next_observation_id": "ROB-000007"
+"next_review_id": "RR-000007"
 }
 ],
 "reviews": [
