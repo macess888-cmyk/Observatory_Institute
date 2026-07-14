@@ -27,6 +27,27 @@
       "classification": "Institutional Architecture Map",
       "status": "Draft",
       "version": "0.1"
+    },
+    {
+      "id": "OI-ARC-000001",
+      "title": "Architecture Index",
+      "classification": "Institutional Architecture",
+      "status": "Draft",
+      "version": "0.1"
+    },
+    {
+      "id": "OI-START-000001",
+      "title": "START HERE",
+      "classification": "Contributor Guide",
+      "status": "Draft",
+      "version": "0.1"
+    },
+    {
+      "id": "OI-GRM-000001",
+      "title": "Institutional Grammar",
+      "classification": "Institutional Architecture",
+      "status": "Draft",
+      "version": "0.1"
     }
   ]
 }
