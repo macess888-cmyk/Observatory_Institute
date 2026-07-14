@@ -52,7 +52,8 @@
 "ROB-000002"
 ],
 "review_ids": [
-"RR-000001"
+"RR-000001",
+"RR-000002"
 ]
 }
 ],
@@ -68,6 +69,22 @@
 "version": "0.1",
 "question_id": "RQ-000001",
 "observation_id": "ROB-000001"
+},
+{
+"id": "RR-000002",
+"title": "Research Review of Relational Position Under Weakened Identity",
+"status": "Completed",
+"assessment": "PARTIALLY SUPPORTED",
+"identity_requirement": "OPERATION-DEPENDENT",
+"relationship_first_status": "LOCALLY SUPPORTED",
+"identity_first_status": "PLAUSIBLE",
+"co_emergence_status": "PLAUSIBLE",
+"model_impact": "RETAIN AND CONTINUE TESTING",
+"irreducibility_status": "UNKNOWN",
+"version": "0.1",
+"question_id": "RQ-000001",
+"observation_id": "ROB-000002",
+"model_id": "RM-000001"
 }
 ],
 "publications": []
