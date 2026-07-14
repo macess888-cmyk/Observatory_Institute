@@ -20,3 +20,7 @@ class EventType(str, Enum):
     TERMINATE = "TERMINATE"
     REVIVE = "REVIVE"
     REBIND = "REBIND"
+    PAUSE = "PAUSE"
+    RESUME = "RESUME"
+    ROLLBACK = "ROLLBACK"
+    SPLIT_BRAIN = "SPLIT_BRAIN"

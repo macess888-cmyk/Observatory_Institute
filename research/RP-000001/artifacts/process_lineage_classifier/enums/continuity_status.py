@@ -11,3 +11,4 @@ class ContinuityStatus(str, Enum):
     TERMINATED = "TERMINATED"
     UNVERIFIED = "UNVERIFIED"
     UNKNOWN = "UNKNOWN"
+    CONFLICTED = "CONFLICTED"

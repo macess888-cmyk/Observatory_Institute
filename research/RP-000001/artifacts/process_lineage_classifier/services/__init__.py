@@ -65,6 +65,36 @@ from .rebinding_classifier import (
     RebindingClassificationError,
     RebindingClassifier,
 )
+from .pause_classifier import (
+    PauseClassificationError,
+    PauseClassifier,
+)
+from .resume_classifier import (
+    ResumeClassificationError,
+    ResumeClassifier,
+)
+from .rollback_classifier import (
+    RollbackClassificationError,
+    RollbackClassifier,
+)
+from .temporal_freshness_validator import (
+    FutureTimestampError,
+    StaleEventError,
+    TemporalFreshnessError,
+    TemporalFreshnessValidator,
+    TemporalOrderError,
+)
+from .lease_expiry_validator import (
+    ExpiredLeaseError,
+    InvalidLeaseError,
+    LeaseExpiryValidator,
+    LeaseNotYetActiveError,
+    LeaseValidationError,
+)
+from .split_brain_classifier import (
+    SplitBrainClassificationError,
+    SplitBrainClassifier,
+)
 
 __all__ = [
     "AddressChangeClassificationError",
@@ -102,4 +132,22 @@ __all__ = [
     "RevivalClassifier",
     "RebindingClassificationError",
     "RebindingClassifier",
+    "PauseClassificationError",
+    "PauseClassifier",
+    "ResumeClassificationError",
+    "ResumeClassifier",
+    "RollbackClassificationError",
+    "RollbackClassifier",
+    "FutureTimestampError",
+    "StaleEventError",
+    "TemporalFreshnessError",
+    "TemporalFreshnessValidator",
+    "TemporalOrderError",
+    "ExpiredLeaseError",
+    "InvalidLeaseError",
+    "LeaseExpiryValidator",
+    "LeaseNotYetActiveError",
+    "LeaseValidationError",
+    "SplitBrainClassificationError",
+    "SplitBrainClassifier",
 ]

@@ -12,3 +12,4 @@ class BindingStatus(str, Enum):
     UNVERIFIED = "UNVERIFIED"
     INVALID = "INVALID"
     UNKNOWN = "UNKNOWN"
+    SUSPENDED = "SUSPENDED"
