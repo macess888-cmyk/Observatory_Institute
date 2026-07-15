@@ -125,6 +125,18 @@ from .rollback_recovery_classifier import (
     RollbackRecoveryClassificationError,
     RollbackRecoveryClassifier,
 )
+from .recovery_orchestrator import (
+    RecoveryOrchestrationError,
+    RecoveryOrchestrator,
+)
+from .quorum_policy_validator import (
+    QuorumPolicyValidationError,
+    QuorumPolicyValidator,
+)
+from .witness_trust_scorer import (
+    WitnessTrustScorer,
+    WitnessTrustScoringError,
+)
 
 __all__ = [
     "AddressChangeClassificationError",
@@ -198,4 +210,10 @@ __all__ = [
     "LineageReconciliationClassifier",
     "RollbackRecoveryClassificationError",
     "RollbackRecoveryClassifier",
+    "RecoveryOrchestrationError",
+    "RecoveryOrchestrator",
+    "QuorumPolicyValidationError",
+    "QuorumPolicyValidator",
+    "WitnessTrustScorer",
+    "WitnessTrustScoringError",
 ]

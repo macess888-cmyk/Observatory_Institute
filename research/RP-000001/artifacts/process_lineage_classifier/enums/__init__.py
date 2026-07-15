@@ -6,6 +6,8 @@ from .event_type import EventType
 from .lineage_status import LineageStatus
 from .operational_status import OperationalStatus
 from .transition_status import TransitionStatus
+from .recovery_decision_status import RecoveryDecisionStatus
+from .witness_trust_level import WitnessTrustLevel
 
 __all__ = [
     "BindingStatus",
@@ -16,4 +18,6 @@ __all__ = [
     "LineageStatus",
     "OperationalStatus",
     "TransitionStatus",
+    "RecoveryDecisionStatus",
+    "WitnessTrustLevel",
 ]
