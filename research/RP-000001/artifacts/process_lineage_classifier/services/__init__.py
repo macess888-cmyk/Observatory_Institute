@@ -169,6 +169,38 @@ from .recovery_decision_verifier import (
     RecoveryDecisionVerificationError,
     RecoveryDecisionVerifier,
 )
+from .reconciliation_receipt_hasher import (
+    ReconciliationReceiptHasher,
+    ReconciliationReceiptHashingError,
+)
+from .recovery_audit_event_hasher import (
+    RecoveryAuditEventHasher,
+    RecoveryAuditEventHashingError,
+)
+from .audit_event_hash_link_validator import (
+    AuditEventHashLinkError,
+    AuditEventHashLinkValidator,
+)
+from .audit_hash_chain_validator import (
+    AuditHashChainError,
+    AuditHashChainValidator,
+)
+from .replay_input_manifest_validator import (
+    ReplayInputManifestError,
+    ReplayInputManifestValidator,
+)
+from .recovery_verification_receipt_service import (
+    RecoveryVerificationReceiptError,
+    RecoveryVerificationReceiptService,
+)
+from .recovery_verification_receipt_hasher import (
+    RecoveryVerificationReceiptHasher,
+    RecoveryVerificationReceiptHashingError,
+)
+from .recovery_integrity_bundle_validator import (
+    RecoveryIntegrityBundleError,
+    RecoveryIntegrityBundleValidator,
+)
 
 __all__ = [
     "AddressChangeClassificationError",
@@ -264,4 +296,20 @@ __all__ = [
     "RecoveryDecisionReplayService",
     "RecoveryDecisionVerificationError",
     "RecoveryDecisionVerifier",
+    "ReconciliationReceiptHasher",
+    "ReconciliationReceiptHashingError",
+    "RecoveryAuditEventHasher",
+    "RecoveryAuditEventHashingError",
+    "AuditEventHashLinkError",
+    "AuditEventHashLinkValidator",
+    "AuditHashChainError",
+    "AuditHashChainValidator",
+    "ReplayInputManifestError",
+    "ReplayInputManifestValidator",
+    "RecoveryVerificationReceiptError",
+    "RecoveryVerificationReceiptService",
+    "RecoveryVerificationReceiptHasher",
+    "RecoveryVerificationReceiptHashingError",
+    "RecoveryIntegrityBundleError",
+    "RecoveryIntegrityBundleValidator",
 ]

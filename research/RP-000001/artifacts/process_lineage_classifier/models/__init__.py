@@ -15,6 +15,16 @@ from .policy_version_binding import PolicyVersionBinding
 from .trust_score_provenance import TrustScoreProvenance
 from .recovery_decision_replay import RecoveryDecisionReplay
 from .recovery_decision_verification import RecoveryDecisionVerification
+from .reconciliation_receipt_hash import ReconciliationReceiptHash
+from .recovery_audit_event_hash import RecoveryAuditEventHash
+from .audit_event_hash_link import AuditEventHashLink
+from .audit_hash_chain import AuditHashChain
+from .replay_input_manifest import ReplayInputManifest
+from .recovery_verification_receipt import RecoveryVerificationReceipt
+from .recovery_verification_receipt_hash import (
+    RecoveryVerificationReceiptHash,
+)
+from .recovery_integrity_bundle import RecoveryIntegrityBundle
 
 __all__ = [
     "BindingAssessment",
@@ -34,4 +44,12 @@ __all__ = [
     "TrustScoreProvenance",
     "RecoveryDecisionReplay",
     "RecoveryDecisionVerification",
+    "ReconciliationReceiptHash",
+    "RecoveryAuditEventHash",
+    "AuditEventHashLink",
+    "AuditHashChain",
+    "ReplayInputManifest",
+    "RecoveryVerificationReceipt",
+    "RecoveryVerificationReceiptHash",
+    "RecoveryIntegrityBundle",
 ]
