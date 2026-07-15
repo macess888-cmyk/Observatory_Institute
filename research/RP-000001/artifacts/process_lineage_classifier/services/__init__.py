@@ -233,6 +233,38 @@ from .key_lineage_validator import (
     KeyLineageError,
     KeyLineageValidator,
 )
+from .public_key_material_validator import (
+    PublicKeyMaterialError,
+    PublicKeyMaterialValidator,
+)
+from .public_key_fingerprint import (
+    PublicKeyFingerprintError,
+    PublicKeyFingerprintService,
+)
+from .ed25519_signature_verifier import (
+    Ed25519SignatureVerificationError,
+    Ed25519SignatureVerifier,
+)
+from .canonical_signed_payload import (
+    CanonicalSignedPayloadError,
+    CanonicalSignedPayloadService,
+)
+from .signature_verification_receipt_service import (
+    SignatureVerificationReceiptError,
+    SignatureVerificationReceiptService,
+)
+from .signature_verification_receipt_hasher import (
+    SignatureVerificationReceiptHashError,
+    SignatureVerificationReceiptHasher,
+)
+from .trusted_key_registry import (
+    TrustedKeyRegistry,
+    TrustedKeyRegistryError,
+)
+from .trusted_signature_verification_service import (
+    TrustedSignatureVerificationError,
+    TrustedSignatureVerificationService,
+)
 
 __all__ = [
     "AddressChangeClassificationError",
@@ -360,4 +392,20 @@ __all__ = [
     "SignatureExpiryValidator",
     "KeyLineageError",
     "KeyLineageValidator",
+    "PublicKeyMaterialError",
+    "PublicKeyMaterialValidator",
+    "PublicKeyFingerprintError",
+    "PublicKeyFingerprintService",
+    "Ed25519SignatureVerificationError",
+    "Ed25519SignatureVerifier",
+    "CanonicalSignedPayloadError",
+    "CanonicalSignedPayloadService",
+    "SignatureVerificationReceiptError",
+    "SignatureVerificationReceiptService",
+    "SignatureVerificationReceiptHashError",
+    "SignatureVerificationReceiptHasher",
+    "TrustedKeyRegistry",
+    "TrustedKeyRegistryError",
+    "TrustedSignatureVerificationError",
+    "TrustedSignatureVerificationService",
 ]

@@ -31,6 +31,8 @@ from .signature_verification import SignatureVerification
 from .signed_integrity_bundle import SignedIntegrityBundle
 from .key_rotation_record import KeyRotationRecord
 from .key_revocation_record import KeyRevocationRecord
+from .public_key_material import PublicKeyMaterial
+from .signature_verification_receipt import SignatureVerificationReceipt
 
 __all__ = [
     "BindingAssessment",
@@ -64,4 +66,6 @@ __all__ = [
     "SignedIntegrityBundle",
     "KeyRotationRecord",
     "KeyRevocationRecord",
+    "PublicKeyMaterial",
+    "SignatureVerificationReceipt",
 ]
