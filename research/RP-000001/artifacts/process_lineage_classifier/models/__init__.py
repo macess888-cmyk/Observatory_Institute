@@ -11,6 +11,10 @@ from .witness_trust_score import WitnessTrustScore
 from .reconciliation_receipt import ReconciliationReceipt
 from .recovery_audit_event import RecoveryAuditEvent
 from .recovery_audit_trail import RecoveryAuditTrail
+from .policy_version_binding import PolicyVersionBinding
+from .trust_score_provenance import TrustScoreProvenance
+from .recovery_decision_replay import RecoveryDecisionReplay
+from .recovery_decision_verification import RecoveryDecisionVerification
 
 __all__ = [
     "BindingAssessment",
@@ -26,4 +30,8 @@ __all__ = [
     "ReconciliationReceipt",
     "RecoveryAuditEvent",
     "RecoveryAuditTrail",
+    "PolicyVersionBinding",
+    "TrustScoreProvenance",
+    "RecoveryDecisionReplay",
+    "RecoveryDecisionVerification",
 ]

@@ -137,6 +137,38 @@ from .witness_trust_scorer import (
     WitnessTrustScorer,
     WitnessTrustScoringError,
 )
+from .reconciliation_receipt_service import (
+    ReconciliationReceiptGenerationError,
+    ReconciliationReceiptService,
+)
+from .recovery_audit_event_service import (
+    RecoveryAuditEventGenerationError,
+    RecoveryAuditEventService,
+)
+from .recovery_audit_trail_service import (
+    RecoveryAuditTrailAssemblyError,
+    RecoveryAuditTrailService,
+)
+from .audit_chain_integrity_validator import (
+    AuditChainIntegrityError,
+    AuditChainIntegrityValidator,
+)
+from .policy_version_binding_validator import (
+    PolicyVersionBindingError,
+    PolicyVersionBindingValidator,
+)
+from .trust_score_provenance_validator import (
+    TrustScoreProvenanceError,
+    TrustScoreProvenanceValidator,
+)
+from .recovery_decision_replay_service import (
+    RecoveryDecisionReplayError,
+    RecoveryDecisionReplayService,
+)
+from .recovery_decision_verifier import (
+    RecoveryDecisionVerificationError,
+    RecoveryDecisionVerifier,
+)
 
 __all__ = [
     "AddressChangeClassificationError",
@@ -216,4 +248,20 @@ __all__ = [
     "QuorumPolicyValidator",
     "WitnessTrustScorer",
     "WitnessTrustScoringError",
+    "ReconciliationReceiptGenerationError",
+    "ReconciliationReceiptService",
+    "RecoveryAuditEventGenerationError",
+    "RecoveryAuditEventService",
+    "RecoveryAuditTrailAssemblyError",
+    "RecoveryAuditTrailService",
+    "AuditChainIntegrityError",
+    "AuditChainIntegrityValidator",
+    "PolicyVersionBindingError",
+    "PolicyVersionBindingValidator",
+    "TrustScoreProvenanceError",
+    "TrustScoreProvenanceValidator",
+    "RecoveryDecisionReplayError",
+    "RecoveryDecisionReplayService",
+    "RecoveryDecisionVerificationError",
+    "RecoveryDecisionVerifier",
 ]
