@@ -25,6 +25,12 @@ from .recovery_verification_receipt_hash import (
     RecoveryVerificationReceiptHash,
 )
 from .recovery_integrity_bundle import RecoveryIntegrityBundle
+from .signing_key_identity import SigningKeyIdentity
+from .detached_signature import DetachedSignature
+from .signature_verification import SignatureVerification
+from .signed_integrity_bundle import SignedIntegrityBundle
+from .key_rotation_record import KeyRotationRecord
+from .key_revocation_record import KeyRevocationRecord
 
 __all__ = [
     "BindingAssessment",
@@ -52,4 +58,10 @@ __all__ = [
     "RecoveryVerificationReceipt",
     "RecoveryVerificationReceiptHash",
     "RecoveryIntegrityBundle",
+    "SigningKeyIdentity",
+    "DetachedSignature",
+    "SignatureVerification",
+    "SignedIntegrityBundle",
+    "KeyRotationRecord",
+    "KeyRevocationRecord",
 ]
