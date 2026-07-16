@@ -37,6 +37,10 @@ from .trusted_key_registry_snapshot import TrustedKeyRegistrySnapshot
 from .trusted_key_admission_receipt import TrustedKeyAdmissionReceipt
 from .trusted_key_removal_receipt import TrustedKeyRemovalReceipt
 from .registry_version_record import RegistryVersionRecord
+from .historical_signature_verification_receipt import (
+    HistoricalSignatureVerificationReceipt,
+)
+from .key_compromise_event import KeyCompromiseEvent
 
 __all__ = [
     "BindingAssessment",
@@ -76,4 +80,6 @@ __all__ = [
     "TrustedKeyAdmissionReceipt",
     "TrustedKeyRemovalReceipt",
     "RegistryVersionRecord",
+    "HistoricalSignatureVerificationReceipt",
+    "KeyCompromiseEvent",
 ]

@@ -301,6 +301,44 @@ from .historical_registry_reconstruction import (
     HistoricalRegistryReconstructionError,
     HistoricalRegistryReconstructionService,
 )
+from .historical_signature_verification import (
+    HistoricalSignatureVerificationError,
+    HistoricalSignatureVerificationService,
+)
+from .historical_signature_verification_receipt_service import (
+    HistoricalSignatureVerificationReceiptError,
+    HistoricalSignatureVerificationReceiptService,
+)
+from .historical_signature_verification_receipt_hasher import (
+    HistoricalSignatureVerificationReceiptHashError,
+    HistoricalSignatureVerificationReceiptHasher,
+)
+from .key_compromise_event_validator import (
+    KeyCompromiseEventError,
+    KeyCompromiseEventValidator,
+)
+from .key_compromise_event_hasher import (
+    KeyCompromiseEventHashError,
+    KeyCompromiseEventHasher,
+)
+from .historical_signature_compromise_assessment import (
+    HistoricalSignatureCompromiseAssessment,
+    HistoricalSignatureCompromiseAssessmentError,
+    HistoricalSignatureCompromiseAssessmentService,
+)
+from .historical_signature_compromise_assessment_hasher import (
+    HistoricalSignatureCompromiseAssessmentHashError,
+    HistoricalSignatureCompromiseAssessmentHasher,
+)
+from .historical_signature_admissibility import (
+    HistoricalSignatureAdmissibilityAssessment,
+    HistoricalSignatureAdmissibilityError,
+    HistoricalSignatureAdmissibilityService,
+)
+from .historical_signature_admissibility_hasher import (
+    HistoricalSignatureAdmissibilityAssessmentHashError,
+    HistoricalSignatureAdmissibilityAssessmentHasher,
+)
 
 __all__ = [
     "AddressChangeClassificationError",
@@ -462,4 +500,24 @@ __all__ = [
     "RegistryVersionRecordHasher",
     "HistoricalRegistryReconstructionError",
     "HistoricalRegistryReconstructionService",
+    "HistoricalSignatureVerificationError",
+    "HistoricalSignatureVerificationService",
+    "HistoricalSignatureVerificationReceiptError",
+    "HistoricalSignatureVerificationReceiptService",
+    "HistoricalSignatureVerificationReceiptHashError",
+    "HistoricalSignatureVerificationReceiptHasher",
+    "KeyCompromiseEventError",
+    "KeyCompromiseEventValidator",
+    "KeyCompromiseEventHashError",
+    "KeyCompromiseEventHasher",
+    "HistoricalSignatureCompromiseAssessment",
+    "HistoricalSignatureCompromiseAssessmentError",
+    "HistoricalSignatureCompromiseAssessmentService",
+    "HistoricalSignatureCompromiseAssessmentHashError",
+    "HistoricalSignatureCompromiseAssessmentHasher",
+    "HistoricalSignatureAdmissibilityAssessment",
+    "HistoricalSignatureAdmissibilityError",
+    "HistoricalSignatureAdmissibilityService",
+    "HistoricalSignatureAdmissibilityAssessmentHashError",
+    "HistoricalSignatureAdmissibilityAssessmentHasher",
 ]
