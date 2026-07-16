@@ -33,6 +33,10 @@ from .key_rotation_record import KeyRotationRecord
 from .key_revocation_record import KeyRevocationRecord
 from .public_key_material import PublicKeyMaterial
 from .signature_verification_receipt import SignatureVerificationReceipt
+from .trusted_key_registry_snapshot import TrustedKeyRegistrySnapshot
+from .trusted_key_admission_receipt import TrustedKeyAdmissionReceipt
+from .trusted_key_removal_receipt import TrustedKeyRemovalReceipt
+from .registry_version_record import RegistryVersionRecord
 
 __all__ = [
     "BindingAssessment",
@@ -68,4 +72,8 @@ __all__ = [
     "KeyRevocationRecord",
     "PublicKeyMaterial",
     "SignatureVerificationReceipt",
+    "TrustedKeyRegistrySnapshot",
+    "TrustedKeyAdmissionReceipt",
+    "TrustedKeyRemovalReceipt",
+    "RegistryVersionRecord",
 ]

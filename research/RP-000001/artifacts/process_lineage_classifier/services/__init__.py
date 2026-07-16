@@ -265,6 +265,42 @@ from .trusted_signature_verification_service import (
     TrustedSignatureVerificationError,
     TrustedSignatureVerificationService,
 )
+from .trusted_key_registry_snapshot_validator import (
+    TrustedKeyRegistrySnapshotError,
+    TrustedKeyRegistrySnapshotValidator,
+)
+from .trusted_key_registry_snapshot_hasher import (
+    TrustedKeyRegistrySnapshotHashError,
+    TrustedKeyRegistrySnapshotHasher,
+)
+from .trusted_key_admission_receipt_service import (
+    TrustedKeyAdmissionReceiptError,
+    TrustedKeyAdmissionReceiptService,
+)
+from .trusted_key_admission_receipt_hasher import (
+    TrustedKeyAdmissionReceiptHashError,
+    TrustedKeyAdmissionReceiptHasher,
+)
+from .trusted_key_removal_receipt_service import (
+    TrustedKeyRemovalReceiptError,
+    TrustedKeyRemovalReceiptService,
+)
+from .trusted_key_removal_receipt_hasher import (
+    TrustedKeyRemovalReceiptHashError,
+    TrustedKeyRemovalReceiptHasher,
+)
+from .registry_version_record_validator import (
+    RegistryVersionRecordError,
+    RegistryVersionRecordValidator,
+)
+from .registry_version_record_hasher import (
+    RegistryVersionRecordHashError,
+    RegistryVersionRecordHasher,
+)
+from .historical_registry_reconstruction import (
+    HistoricalRegistryReconstructionError,
+    HistoricalRegistryReconstructionService,
+)
 
 __all__ = [
     "AddressChangeClassificationError",
@@ -408,4 +444,22 @@ __all__ = [
     "TrustedKeyRegistryError",
     "TrustedSignatureVerificationError",
     "TrustedSignatureVerificationService",
+    "TrustedKeyRegistrySnapshotError",
+    "TrustedKeyRegistrySnapshotValidator",
+    "TrustedKeyRegistrySnapshotHashError",
+    "TrustedKeyRegistrySnapshotHasher",
+    "TrustedKeyAdmissionReceiptError",
+    "TrustedKeyAdmissionReceiptService",
+    "TrustedKeyAdmissionReceiptHashError",
+    "TrustedKeyAdmissionReceiptHasher",
+    "TrustedKeyRemovalReceiptError",
+    "TrustedKeyRemovalReceiptService",
+    "TrustedKeyRemovalReceiptHashError",
+    "TrustedKeyRemovalReceiptHasher",
+    "RegistryVersionRecordError",
+    "RegistryVersionRecordValidator",
+    "RegistryVersionRecordHashError",
+    "RegistryVersionRecordHasher",
+    "HistoricalRegistryReconstructionError",
+    "HistoricalRegistryReconstructionService",
 ]
